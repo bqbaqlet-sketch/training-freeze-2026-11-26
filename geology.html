@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Практикум геолога · RockiGo</title>
+<style>
+  :root {
+    font: 16px/1.55 system-ui, sans-serif;
+    color: #172933;
+    background: #eff4f1;
+    --muted: #4d646a;
+    --line: #d7e5de;
+    --accent: #105a4c;
+    --warm: #a74b22;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  a { color: var(--accent); text-underline-offset: .18em; }
+  button, input { font: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 3px solid #a74b22; outline-offset: 3px; }
+  [hidden] { display: none !important; }
+  .wrap { max-width: 1120px; margin-inline: auto; padding-inline: clamp(14px, 3vw, 34px); }
+  header { background: #153b37; color: #fff; }
+  header .wrap { display: flex; justify-content: space-between; align-items: center; min-height: 62px; gap: 12px; }
+  header a { color: #e3f7eb; font-size: .92rem; }
+  main { padding-block: 30px 42px; }
+  h1 { margin: 0; font-size: clamp(2rem, 5.4vw, 3.6rem); line-height: 1.06; letter-spacing: -.04em; }
+  h2 { margin: 0 0 .35rem; font-size: 1.43rem; line-height: 1.15; }
+  p { margin: .5rem 0; }
+  .intro { margin: .65rem 0 1.35rem; color: var(--muted); }
+  .cases { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .cases button, .secondary {
+    border: 1px solid var(--line); border-radius: 9px; min-height: 44px; padding: 8px 14px;
+    background: #fff; color: var(--accent); font-weight: 650;
+  }
+  .cases button[aria-pressed="true"], .primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 14px; align-items: start; }
+  .panel { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: clamp(13px, 2.2vw, 24px); min-width: 0; }
+  .origin { font-size: .87rem; font-weight: 650; color: var(--warm); }
+  .muted, .meta { color: var(--muted); }
+  .meta { font-size: .88rem; }
+  .chart { margin: 15px 0; }
+  .bars { display: grid; gap: 5px; }
+  .bar-row { display: grid; grid-template-columns: 4.5ch minmax(0, 1fr) 5.5ch; gap: 7px; align-items: center; font-size: .85rem; }
+  .track { background: #ebf4ef; border-radius: 3px; height: 12px; }
+  .bar { display: block; height: 100%; background: #148575; border-radius: 3px; }
+  .bar.warm { background: #bc683e; }
+  .bar-row strong { text-align: right; font-variant-numeric: tabular-nums; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 0; text-align: left; font-variant-numeric: tabular-nums; }
+  caption { text-align: left; font-size: .9rem; color: var(--muted); margin-bottom: 4px; }
+  th, td { padding: 7px 4px; border-bottom: 1px solid var(--line); }
+  thead th { font-size: .8rem; color: var(--muted); font-weight: 700; }
+  tbody th { font-weight: 650; }
+  .calculator { background: #edf6f0; border-radius: 10px; padding: 12px; margin-top: 14px; }
+  .calculator label { font-weight: 700; }
+  .calculator input { width: 100%; display: block; min-height: 34px; margin: 3px 0; accent-color: var(--accent); }
+  .calculator output { display: block; font-weight: 700; }
+  details { margin-top: .8rem; }
+  summary { cursor: pointer; font-weight: 650; }
+  .actions { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 13px; }
+  .primary { border: 1px solid var(--accent); border-radius: 9px; min-height: 44px; padding: 8px 14px; font-weight: 650; }
+  .question { border: 0; padding: 0; min-width: 0; margin: 13px 0 0; }
+  .question legend { padding: 0; font-weight: 700; line-height: 1.3; }
+  .question label { display: flex; gap: 9px; align-items: flex-start; padding: 7px; margin-top: 5px; border: 1px solid var(--line); border-radius: 8px; }
+  .question input { accent-color: var(--accent); margin: .36em 0 0; flex: none; }
+  .question label:has(input:checked) { background: #edf6f0; border-color: #75a99b; }
+  .feedback { margin: 6px 0 12px; padding: 8px 10px; border-left: 3px solid var(--accent); font-size: .9rem; }
+  .feedback.retry { border-color: var(--warm); }
+  .result { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 10px; }
+  .result dl { margin: 0; }
+  .result dt { font-weight: 700; margin-top: 8px; }
+  .result dd { margin: 0; }
+  @media (max-width: 760px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap"><strong>RockiGo</strong><a href="./index.html">К обучающим курсам</a></div>
+</header>
+<main class="wrap">
+  <h1>Практикум геолога</h1>
+  <p class="intro">Прочитай измерения, проверь допущения и обоснуй следующее действие.</p>
+  <nav class="cases" id="cases" aria-label="Практические случаи"></nav>
+  <div class="layout">
+    <section class="panel" aria-labelledby="case-title">
+      <h2 id="case-title"></h2>
+      <p id="scenario"></p>
+      <p class="origin">Учебные данные RockiGo. Измерения смоделированы.</p>
+      <div class="chart" id="chart"></div>
+      <table>
+        <caption id="table-caption"></caption>
+        <thead id="head"></thead><tbody id="body"></tbody>
+      </table>
+      <div class="calculator">
+        <label for="setting" id="setting-label"></label>
+        <input id="setting" type="range" aria-describedby="setting-value formula">
+        <p class="meta" id="setting-value"></p>
+        <output id="formula-result" for="setting"></output>
+        <details>
+          <summary>Формула и переменные</summary>
+          <p id="formula"></p>
+        </details>
+      </div>
+      <details>
+        <summary>Источники и допущения</summary>
+        <p id="limits"></p>
+        <ul id="sources"></ul>
+      </details>
+      <div class="actions"><button type="button" class="secondary" id="csv">Скачать измерения CSV</button></div>
+    </section>
+    <section class="panel" aria-labelledby="decision-title">
+      <h2 id="decision-title">Решение по данным</h2>
+      <form id="decisions">
+        <div id="questions"></div>
+        <div class="actions"><button class="primary">Проверить решение</button></div>
+      </form>
+      <p role="status" id="score" tabindex="-1"></p>
+      <section id="result" class="result" hidden>
+        <h2>Заключение</h2>
+        <dl id="conclusion"></dl>
+        <div class="actions"><button type="button" class="secondary" id="report">Скачать заключение</button></div>
+      </section>
+    </section>
+  </div>
+</main>
+<script>
+"use strict";
+const decimal = (value, digits = 2) => Number(value).toLocaleString("ru-RU", {maximumFractionDigits: digits});
+const steps = ["Измерение", "Интерпретация", "Условия", "Вывод", "Следующая проверка"];
+
+const cases = [
+  {
+    id: "logs", label: "Каротаж", title: "Выбрать интервал для опробования",
+    scenario: "Из четырёх интервалов скважины нужно выбрать один для проверки насыщения. Сопоставь естественную гамма-активность, удельное сопротивление пласта и оценку пористости.",
+    caption: "Каротажные данные и оценка пористости",
+    headers: ["Интервал", "Глубина, м", "ГК, API", "Rₜ, Ом·м", "φ, %"],
+    rows: [["A", "2040–2042", 34, 22, 24], ["B", "2042–2044", 108, 4, 16], ["C", "2044–2046", 42, 3.8, 23], ["D", "2046–2048", 31, 34, 7]],
+    chart: "Удельное сопротивление пласта Rₜ, Ом·м",
+    bars: rows => rows.map(([name,,, rt]) => [name, rt]),
+    setting: [5, 55, 5, 10], settingLabel: "Сопротивление пластовой воды Rw",
+    settingText: value => decimal(value / 100) + " Ом·м",
+    formula: "При a = 1 и m = n = 2 используем Sw = √(Rw / (φ² × Rₜ)). Sw — доля порового объёма, занятого водой, φ — пористость в долях от 0 до 1, Rw — сопротивление пластовой воды, Rₜ — сопротивление пласта. Для A φ = 0,24 и Rₜ = 22 Ом·м.",
+    limits: "Формула демонстрирует чувствительность оценки для чистого песчаника. Низкий ГК поддерживает эту гипотезу, но минералогию и влияние глин нужно проверить. a, m и n подбирают по данным породы, сопротивление воды приводят к пластовой температуре.",
+    refs: [
+      ["Латышова, PDF стр. 92–98 · открыть курс", "./latyshova/RockiGo.html"],
+      ["Archie, 1942 · сопротивление и насыщение (PDF)", "https://personal.ems.psu.edu/~radovic/EME590_Archie_1942.pdf"],
+      ["USGS · что измеряют каротажные методы", "https://pubs.usgs.gov/wri/wri984184/text/table3.htm"]
+    ],
+    calculate(value, rows) {
+      const [,,, rt, porosity] = rows[0];
+      const saturation = Math.round(100 * Math.sqrt((value / 100) / ((porosity / 100) ** 2 * rt)));
+      return {text: "Водонасыщенность A по модели ≈ " + saturation + "%", answer: saturation + "%",
+        alternatives: [(100 - saturation) + "%", "24%", "85%"]};
+    },
+    questions: [
+      ["Какие данные отличают A от D?", ["Более высокая пористость A при меньшем Rₜ", "Более высокий Rₜ у A при той же пористости", "Пористость обоих интервалов около 24%"], 0, "Для A оценка φ равна 24% и Rₜ = 22 Ом·м. Для D φ равна 7% и Rₜ = 34 Ом·м."],
+      ["Какой интервал разумно выбрать первым по совокупности признаков?", ["B, потому что ГК 108 API подтверждает хороший коллектор", "A, потому что низкий ГК сочетается с высокой φ и Rₜ", "D, потому что у него максимальный Rₜ"], 1, "A выглядит перспективнее при данных условиях. Высокий Rₜ у D совместим с низкой пористостью и сам по себе насыщение не определяет."],
+      ["Что нужно проверить перед применением модели Арчи?", ["Минералогию, влияние глин и Rw при пластовой температуре", "Достаточно проверить, что Rₜ выше 20 Ом·м", "Достаточно сравнить ГК двух интервалов"], 0, "Значение Rw входит в расчёт, а проводящие глины нарушают применимость простой модели."],
+      ["Какая водонасыщенность A получается при текущем Rw?"],
+      ["Чем проверить предположение о насыщении?", ["Повторить расчёт с тем же Rw", "Проверить свойства пластовой воды и сопоставить оценку с результатами опробования пласта", "Исключить D и принять A за доказанную нефтенасыщенную зону"], 1, "Проба воды уточняет Rw, а опробование помогает проверить характер притока."],
+    ],
+    conclusion: [
+      "A: ГК 34 API, Rₜ 22 Ом·м, оценка пористости 24%.",
+      "A — приоритетный кандидат для опробования по сочетанию признаков.",
+      "Формула применима при допущении о чистом песчанике, заданных коэффициентах и корректном Rw.",
+      "Выбор A предварительный. Чувствительность к Rw показана расчётом.",
+      "Уточнить Rw по пластовой воде и сопоставить прогноз с результатом опробования."
+    ]
+  },
+  {
+    id: "pressure", label: "Давление", title: "Увидеть отклик соседней скважины",
+    scenario: "В активной скважине начали отбор. В двух остановленных соседних скважинах записали давление. Определи, когда изменение стало заметным по заданному критерию.",
+    caption: "Давление после начала отбора, МПа",
+    headers: ["День", "Ближняя", "Дальняя"],
+    rows: [[0,22,22], [1,21.88,21.99], [2,21.67,21.96], [4,21.40,21.83], [8,21.18,21.59]],
+    chart: "Падение давления в дальней скважине, МПа",
+    bars(rows) { return rows.map(([time,, p]) => [time + " сут", Number((rows[0][2] - p).toFixed(2))]); },
+    setting: [5, 35, 5, 10], settingLabel: "Порог регистрации Δp",
+    settingText: value => decimal(value / 100) + " МПа",
+    formula: "Δp = p₀ − p(t), где p₀ — давление в той же скважине перед отбором, а p(t) — давление на выбранные сутки. Первая точка с Δp ≥ порога считается зарегистрированным откликом по этому учебному правилу.",
+    limits: "Порог задаётся в упражнении. Момент, когда сигнал пересёк порог между замерами, неизвестен. Изменение может быть связано с отбором, фоновым трендом, другой скважиной или прибором.",
+    refs: [
+      ["Басниев и др., PDF стр. 478–481, 494–500 · открыть курс", "./basniev/RockiGo.html"],
+      ["Бюро экономической геологии Техаса · тест межскважинного влияния", "https://www.beg.utexas.edu/lmod/mod15/m15-bc01.htm"]
+    ],
+    calculate(value, rows) {
+      const [time,, p] = rows.find(([, , measured]) => Math.round((rows[0][2] - measured) * 100) >= value);
+      const answer = time + "-е сутки";
+      const alternatives = [2, 4, 8].filter(day => day !== time).map(day => day + "-е сутки");
+      return {text: "В дальней скважине первый отсчёт выше или на пороге — " + answer +
+        " (Δp " + decimal(rows[0][2] - p) + " МПа)", answer, alternatives};
+    },
+    questions: [
+      ["Где давление упало сильнее на вторые сутки?", ["На обеих скважинах одинаково", "На ближней", "На дальней"], 1, "Δp ближней составляет 0,33 МПа. Δp дальней составляет 0,04 МПа."],
+      ["Что может означать более поздний заметный отклик дальней скважины?", ["Гидравлическая связь возможна, если отклик совпадает с отбором", "Между скважинами точно есть непроницаемый экран", "Физический фронт пришёл ровно в момент замера"], 0, "Данные согласуются с передачей возмущения. Дискретный замер фиксирует первое наблюдение по порогу."],
+      ["Что важно при сравнении рядов?", ["Сравнить только абсолютные давления на восьмые сутки", "Сравнить времена, изменения от своей базы и шум каждого манометра", "Взять одинаковое исходное давление для любого набора данных"], 1, "Сопоставляют синхронные ряды, вычитая свой фон, и учитывают погрешность приборов."],
+      ["На какие сутки кривая дальней скважины впервые достигает порога?"],
+      ["Какие данные отличат отклик на отбор от постороннего тренда?", ["Две конечные точки из тех же рядов", "Только расстояние между скважинами", "Синхронный журнал дебита и фоновые ряды соседних скважин"], 2, "Журнал позволяет проверить совпадение отклика с изменением режима и исключить соседние работы."],
+    ],
+    conclusion: [
+      "На вторые сутки Δp ближней скважины 0,33 МПа, дальней 0,04 МПа.",
+      "Отложенный сигнал совместим с межскважинным влиянием.",
+      "Сопоставляем синхронный ряд с его базой и проверяем шум и фон.",
+      "Первый отсчёт выше порога зависит от порога и шага измерения.",
+      "Сверить журнал дебита, проверить фон и получить повторяемый отклик."
+    ]
+  },
+  {
+    id: "reef", label: "Рифовый керн", title: "Отличить пористость от проницаемости",
+    scenario: "Из рифовой толщи отобрали три керновых образца. Сравни долю пор и лабораторную проницаемость, прежде чем переносить вывод на пласт.",
+    caption: "Результаты анализа трёх образцов керна",
+    headers: ["Проба", "Глубина, м", "φ, %", "k, мД"],
+    rows: [["R1",2194,20,0.8], ["R2",2198,15,86], ["R3",2205,12,22]],
+    chart: "Лабораторная проницаемость k, мД",
+    bars: rows => rows.map(([sample,,, k]) => [sample, k]),
+    setting: [5, 100, 5, 20], settingLabel: "Порог проницаемости для отбора проб",
+    settingText: value => decimal(value) + " мД",
+    formula: "φ = Vпор / Vобразца × 100%. Пористость выражает объём пор. k показывает, насколько легко по связанным порам проходит флюид. Для отбора в этом упражнении используем простое правило k ≥ порога.",
+    limits: "Порог учебный. Даже хорошая проба не описывает проницаемость и связность всего рифа. Масштаб, направление измерения, трещины, качество отбора и положение относительно фаций влияют на результат.",
+    refs: [
+      ["Кузнецов, PDF стр. 205–210 · открыть курс", "./kuznetsov/RockiGo.html"],
+      ["Menke, Maes и Geiger · структура пор и проницаемость карбоната", "https://www.nature.com/articles/s41598-021-82029-2"]
+    ],
+    calculate(value, rows) {
+      const selected = rows.filter(([,,, k]) => k >= value).map(([sample]) => sample);
+      const count = selected.length;
+      return {text: "Прошли порог: " + (selected.join(", ") || "ни одна проба"), answer: String(count),
+        alternatives: [0, 1, 2, 3].filter(number => number !== count).slice(0, 2).map(String)};
+    },
+    questions: [
+      ["У какой пробы выше пористость, но ниже проницаемость, чем у R2?", ["R3", "У обеих", "R1"], 2, "R1 имеет φ = 20% при k = 0,8 мД. У R2 φ = 15%, а k = 86 мД."],
+      ["Как объяснить сильное различие проницаемости R1 и R2?", ["Возможны различия в связности и размерах поровых каналов", "Пористость всегда прямо пропорциональна проницаемости", "У R1 больше открытых каналов, поскольку у неё выше φ"], 0, "Даже большой объём пор мало помогает потоку, если поры слабо соединены."],
+      ["Зачем проверить направление и масштаб измерения?", ["Чтобы пересчитать глубину керна из метров в мД", "Лабораторная проба может не отражать направление потока и неоднородность пласта", "Направление важно только при измерении пористости"], 1, "Трещины, слоистость и положение пробы могут менять проницаемость, измеренную в разных направлениях."],
+      ["Сколько проб проходит текущий порог k ≥ выбранного значения?"],
+      ["Что проверить перед переносом решения на риф?", ["Добавить керновые измерения, привязать их к каротажу и проверить связность по данным скважин", "Считать всю толщу равной лучшей пробе R2", "Использовать только среднюю пористость трёх проб"], 0, "Совмещение масштабов помогает проверить, где свойства R2 сохраняются за пределами одной пробы."],
+    ],
+    conclusion: [
+      "У R1 больше пористость, у R2 лабораторная проницаемость выше более чем в сто раз.",
+      "Размер и связность поровых каналов могут объяснить отличие.",
+      "Сопоставляем пробы с учётом направления, масштаба и фаций.",
+      "Порог даёт предварительный список проб. Для всего пласта нужна дополнительная проверка.",
+      "Привязать керн к каротажу и проверить связность интервалов по данным скважин."
+    ]
+  }
+];
+
+const $ = id => document.getElementById(id);
+const storageKey = "rockigo.geology.practice.v1";
+const attemptStates = new Map();
+let active, state;
+try {
+  const saved = JSON.parse(localStorage.getItem(storageKey));
+  for (const item of cases) {
+    if (saved?.[item.id]) attemptStates.set(item.id, saved[item.id]);
+  }
+} catch {}
+
+function save() {
+  try { localStorage.setItem(storageKey, JSON.stringify(Object.fromEntries(attemptStates))); } catch {}
+}
+
+function element(tag, text, className) {
+  const node = document.createElement(tag);
+  if (text !== undefined) node.textContent = text;
+  if (className) node.className = className;
+  return node;
+}
+
+function drawData() {
+  $("table-caption").textContent = active.caption;
+  const row = element("tr");
+  for (const heading of active.headers) {
+    const header = element("th", heading);
+    header.scope = "col";
+    row.append(header);
+  }
+  $("head").replaceChildren(row);
+  $("body").replaceChildren(...active.rows.map(values => {
+    const row = element("tr");
+    const header = element("th", String(values[0]));
+    header.scope = "row";
+    row.append(header, ...values.slice(1).map(value => element("td", typeof value === "number" ? decimal(value) : value)));
+    return row;
+  }));
+  const bars = active.bars(active.rows);
+  const scale = Math.max(...bars.map(([, value]) => value));
+  const graph = element("div", undefined, "bars");
+  graph.setAttribute("aria-hidden", "true");
+  for (const [label, value] of bars) {
+    const row = element("div", undefined, "bar-row");
+    const track = element("div", undefined, "track");
+    const bar = element("span", undefined, value === scale ? "bar warm" : "bar");
+    bar.style.width = String(value / scale * 100) + "%";
+    track.append(bar);
+    row.append(element("span", label), track, element("strong", decimal(value)));
+    graph.append(row);
+  }
+  $("chart").replaceChildren(element("p", active.chart, "meta"), graph);
+  $("sources").replaceChildren(...active.refs.map(([label, href]) => {
+    const item = element("li");
+    const link = element("a", label);
+    link.href = href;
+    item.append(link);
+    return item;
+  }));
+}
+
+function questionsForSetting() {
+  const result = active.calculate(state.value, active.rows);
+  return active.questions.map(([prompt, options, correct, explanation], index) => {
+    if (index !== 3) return {prompt, options, answer: options[correct], explanation};
+    const choices = [...new Set(result.alternatives.filter(option => option !== result.answer))].slice(0, 2);
+    choices.splice(cases.indexOf(active) % (choices.length + 1), 0, result.answer);
+    return {prompt, options: choices, answer: result.answer, explanation: result.text + "."};
+  });
+}
+
+function questionField(question, index) {
+  const group = element("fieldset", undefined, "question");
+  group.append(element("legend", steps[index] + " · " + question.prompt));
+  for (const option of question.options) {
+    const label = element("label");
+    const input = element("input");
+    input.type = "radio";
+    input.name = "answer" + index;
+    input.value = option;
+    input.required = true;
+    input.checked = state.answers[index] === option;
+    input.addEventListener("change", () => {
+      state.answers[index] = option;
+      clearResult();
+      save();
+    });
+    label.append(input, element("span", option));
+    group.append(label);
+  }
+  const feedback = element("p", undefined, "feedback");
+  feedback.hidden = true;
+  group.append(feedback);
+  return group;
+}
+
+function clearResult() {
+  state.checked = false;
+  $("score").textContent = "";
+  $("result").hidden = true;
+  for (const feedback of $("questions").querySelectorAll(".feedback")) feedback.hidden = true;
+}
+
+function drawCalculation() {
+  $("setting-value").textContent = active.settingText(state.value);
+  $("setting").setAttribute("aria-valuetext", $("setting-value").textContent);
+  $("formula-result").textContent = active.calculate(state.value, active.rows).text;
+}
+
+function conclusions() {
+  const lines = [...active.conclusion];
+  lines[3] += " " + active.calculate(state.value, active.rows).text + ".";
+  return lines;
+}
+
+function evaluate(moveFocus = false) {
+  const questions = questionsForSetting();
+  let correctCount = 0;
+  for (const [index, question] of questions.entries()) {
+    const correct = state.answers[index] === question.answer;
+    correctCount += Number(correct);
+    const feedback = $("questions").children[index].querySelector(".feedback");
+    feedback.textContent = (correct ? "Верно. " : "Проверь ещё раз. ") + question.explanation;
+    feedback.classList.toggle("retry", !correct);
+    feedback.hidden = false;
+  }
+  const success = correctCount === questions.length;
+  $("score").textContent = "Верно " + correctCount + " из " + questions.length + ". " +
+    (success ? "Заключение готово." : "Сверь основания и попробуй ещё раз.");
+  $("result").hidden = !success;
+  if (success) {
+    $("conclusion").replaceChildren(...conclusions().flatMap((line, index) =>
+      [element("dt", steps[index]), element("dd", line)]));
+  }
+  if (moveFocus) $("score").focus();
+}
+
+function renderCase() {
+  active = cases.find(item => location.hash === "#" + item.id) || cases[0];
+  const [min, max, step, start] = active.setting;
+  const previous = attemptStates.get(active.id);
+  if (previous && Number.isFinite(previous.value) && previous.value >= min && previous.value <= max && previous.value % step === 0 &&
+        Array.isArray(previous.answers) && previous.answers.length === steps.length) {
+    state = previous;
+  } else {
+    state = {value: start, answers: Array(steps.length).fill(null), checked: false};
+    attemptStates.set(active.id, state);
+  }
+  for (const button of $("cases").children) button.setAttribute("aria-pressed", String(button.dataset.case === active.id));
+  $("case-title").textContent = active.title;
+  $("scenario").textContent = active.scenario;
+  $("formula").textContent = active.formula;
+  $("limits").textContent = active.limits;
+  $("setting-label").textContent = active.settingLabel;
+  const slider = $("setting");
+  slider.min = min;
+  slider.max = max;
+  slider.step = step;
+  slider.value = state.value;
+  drawData();
+  drawCalculation();
+  $("questions").replaceChildren(...questionsForSetting().map(questionField));
+  if (state.checked) evaluate();
+  else clearResult();
+}
+
+function download(name, data, type) {
+  const link = element("a");
+  link.href = URL.createObjectURL(new Blob([data], {type}));
+  link.download = name;
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+}
+
+for (const item of cases) {
+  const button = element("button", item.label);
+  button.type = "button";
+  button.dataset.case = item.id;
+  button.addEventListener("click", () => { location.hash = item.id; });
+  $("cases").append(button);
+}
+window.addEventListener("hashchange", renderCase);
+$("setting").addEventListener("input", () => {
+  state.value = Number($("setting").value);
+  state.answers[3] = null;
+  drawCalculation();
+  $("questions").children[3].replaceWith(questionField(questionsForSetting()[3], 3));
+  clearResult();
+  save();
+});
+$("decisions").addEventListener("submit", event => {
+  event.preventDefault();
+  state.checked = true;
+  evaluate(true);
+  save();
+});
+$("csv").addEventListener("click", () => {
+  const csv = [active.headers, ...active.rows].map(row => row.map(value =>
+    typeof value === "number" ? String(value).replace(".", ",") : value).join(";")).join("\r\n");
+  download("RockiGo-учебные-данные-" + active.id + ".csv", "\ufeff" + csv + "\r\n", "text/csv;charset=utf-8");
+});
+$("report").addEventListener("click", () => {
+  const text = [active.title, "Учебные данные RockiGo. Измерения смоделированы.",
+    active.settingLabel + " — " + active.settingText(state.value), "",
+    ...conclusions().flatMap((line, index) => [steps[index] + " — " + line, ""]),
+    "Источники и допущения", active.limits, ...active.refs.map(([name, url]) =>
+      url.startsWith("https:") ? name + " — " + url : name.replace(" · открыть курс", ""))].join("\r\n");
+  download("RockiGo-заключение-" + active.id + ".txt", "\ufeff" + text, "text/plain;charset=utf-8");
+});
+renderCase();
+</script>
+</body>
+</html>

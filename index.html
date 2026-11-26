@@ -6,6 +6,8 @@ body{max-width:960px;margin:auto;padding:24px 16px} article{background:#fff;padd
 h1{font-size:clamp(2rem,6vw,3rem);margin:8px 0} h2{margin:4px 0} p{margin:6px 0 12px}
 .courses{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:14px;margin-top:20px}
 .package{background:#e9e0f7;border-radius:14px;padding:14px 18px}.package p{margin:0}.package .files{margin-top:8px}
+.practice{margin:20px 0 0;background:#e0f3ea;border-color:#b9d8c9}
+.practice .open{background:#105a4c}
 a{color:#522391;text-underline-offset:.16em} .open{display:inline-block;background:#512492;color:#fff;border-radius:8px;padding:9px 12px}
 .files{display:flex;flex-wrap:wrap;gap:7px 13px;margin-top:14px}
 :focus-visible{outline:3px solid #228778;outline-offset:3px}
@@ -15,10 +17,50 @@ a{color:#522391;text-underline-offset:.16em} .open{display:inline-block;backgrou
 <aside class="package">
   <p>Для офлайн-просмотра распакуй ZIP целиком и открой <code>index.html</code> в распакованной папке.</p>
   <div class="files">
-    <a href="https://github.com/bqbaqlet-sketch/training-freeze-2026-11-26/archive/refs/heads/main.zip">Скачать весь пакет</a>
+    <a href="https://github.com/bqbaqlet-sketch/training-freeze-2026-11-26/archive/135e56e91073aa44202d5b9f8c9d9d2253fef98e.zip">Скачать пакет сдачи</a>
     <a href="https://bqbaqlet-sketch.github.io/rockigo/pipeline/">Открыть конвейер</a>
     <a href="https://github.com/bqbaqlet-sketch/rockigo/commit/b180740e45938e2bcc995dab655b02aa6fb9f3ed">Замороженный коммит</a>
   </div>
 </aside>
+<article class="practice">
+  <h2>Практикум геолога</h2>
+  <p>Проверь три решения на учебных данных по каротажу, давлению и рифовому керну.</p>
+  <a class="open" href="./geology.html">От измерений к заключению</a>
+</article>
 <div class="courses">
-<article><p>М. Г. Латышова</p><h2>Как читать каротаж и выделять коллекторы</h2><p>Глава V, § 17–20</p><a class="open" href="latyshova/RockiGo.html">Открыть курс</a><div class="files"><a href="latyshova/layer.json">Учебный слой</a><a href="latyshova/coverage.csv">Таблица покрытия</a><a href="latyshova/routing.json">Маршрутизация</a><a href="latyshova/task.json">Задания</a><a href="latyshova/verification.json">Отчёт проверки</a></div></article><article><p>К. С. Басниев, Н. М. Дмитриев, Г. Д. Розенберг</p><h2>Давление и фильтрация</h2><p>Главы XXIII и XXIV § 1</p><a class="open" href="basniev/RockiGo.html">Открыть курс</a><div class="files"><a href="basniev/layer.json">Учебный слой</a><a href="basniev/coverage.csv">Таблица покрытия</a><a href="basniev/routing.json">Маршрутизация</a><a href="basniev/task.json">Задания</a><a href="basniev/verification.json">Отчёт проверки</a></div></article><article><p>В. Г. Кузнецов</p><h2>Строение рифовых резервуаров</h2><p>Глава 10, § 10.1–10.4</p><a class="open" href="kuznetsov/RockiGo.html">Открыть курс</a><div class="files"><a href="kuznetsov/layer.json">Учебный слой</a><a href="kuznetsov/coverage.csv">Таблица покрытия</a><a href="kuznetsov/routing.json">Маршрутизация</a><a href="kuznetsov/task.json">Задания</a><a href="kuznetsov/verification.json">Отчёт проверки</a></div></article></div></main></body></html>
+  <article>
+    <p>М. Г. Латышова</p>
+    <h2>Как читать каротаж и выделять коллекторы</h2>
+    <p>Глава V, § 17–20</p>
+    <a class="open" href="latyshova/RockiGo.html">Открыть курс</a>
+    <div class="files">
+      <a href="./geology.html#logs">Практикум</a><a href="latyshova/media/crossplot.mp4">Видео 16:9</a><a href="latyshova/media/crossplot.passport.json">Паспорт видео</a>
+      <a href="latyshova/layer.json">Учебный слой</a><a href="latyshova/coverage.csv">Таблица покрытия</a><a href="latyshova/routing.json">Маршрутизация</a>
+      <a href="latyshova/task.json">Задания</a><a href="latyshova/verification.json">Отчёт проверки</a>
+    </div>
+  </article>
+  <article>
+    <p>К. С. Басниев, Н. М. Дмитриев, Г. Д. Розенберг</p>
+    <h2>Давление и фильтрация</h2>
+    <p>Главы XXIII и XXIV § 1</p>
+    <a class="open" href="basniev/RockiGo.html">Открыть курс</a>
+    <div class="files">
+      <a href="./geology.html#pressure">Практикум</a><a href="basniev/media/pressure.mp4">Видео 9:16</a><a href="basniev/media/pressure.passport.json">Паспорт видео</a>
+      <a href="basniev/layer.json">Учебный слой</a><a href="basniev/coverage.csv">Таблица покрытия</a><a href="basniev/routing.json">Маршрутизация</a>
+      <a href="basniev/task.json">Задания</a><a href="basniev/verification.json">Отчёт проверки</a>
+    </div>
+  </article>
+  <article>
+    <p>В. Г. Кузнецов</p>
+    <h2>Строение рифовых резервуаров</h2>
+    <p>Глава 10, § 10.1–10.4</p>
+    <a class="open" href="kuznetsov/RockiGo.html">Открыть курс</a>
+    <div class="files">
+      <a href="./geology.html#reef">Практикум</a><a href="kuznetsov/layer.json">Учебный слой</a><a href="kuznetsov/coverage.csv">Таблица покрытия</a>
+      <a href="kuznetsov/routing.json">Маршрутизация</a><a href="kuznetsov/task.json">Задания</a><a href="kuznetsov/verification.json">Отчёт проверки</a>
+    </div>
+  </article>
+</div>
+</main>
+</body>
+</html>
