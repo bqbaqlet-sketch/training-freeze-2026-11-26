@@ -1,0 +1,38 @@
+{
+  "schemas": [
+    "node",
+    "coverage",
+    "routing",
+    "task"
+  ],
+  "pages": 19,
+  "nodes": 9,
+  "units": 180,
+  "verified_quotes": 169,
+  "units_by_type": {
+    "heading": 13,
+    "paragraph": 105,
+    "task": 19,
+    "table": 7,
+    "figure": 21,
+    "formula": 5,
+    "worked_example": 10
+  },
+  "needs_visual_review": 45,
+  "tasks": 21,
+  "task_types": [
+    "gap",
+    "multiple",
+    "order",
+    "single"
+  ],
+  "task_minimum_met": true,
+  "scope": "Дословность и числа сверены с выданным Markdown. PDF проверен по охвату страниц; предметная оценка и сканы отмечаются отдельно.",
+  "chapter": "latyshova",
+  "html_bytes": 11342574,
+  "build_seconds": 2.8,
+  "teaching_notes": true,
+  "pdf_sha256": "5dd835e153876436d2ab2b06d12ebd1a16a5f106e29cbe1d0488e435c460396f",
+  "markdown_sha256": "b49bea9ed6bca0aa41900eaf7d5e18cb6596b73095c034cd1a41b2132bd2867a",
+  "freeze_commit": "b180740e45938e2bcc995dab655b02aa6fb9f3ed"
+}

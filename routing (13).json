@@ -1,0 +1,113 @@
+{
+  "chapter": "latyshova",
+  "routes": [
+    {
+      "node_id": "latyshova.p090",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 1,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 1
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "latyshova.p091",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 1,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 1
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "latyshova.p092",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 1,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 1
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "latyshova.p093",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "latyshova.p095",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 1,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "latyshova.p096",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "latyshova.p098",
+      "format": "длинное видео",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 1,
+        "cause_effect": 1
+      },
+      "why": "Чтение двух измерений и решение по палетке."
+    },
+    {
+      "node_id": "latyshova.p101",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "latyshova.p105",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 1,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    }
+  ]
+}

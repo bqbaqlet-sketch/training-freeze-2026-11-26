@@ -1,0 +1,28 @@
+{
+  "node_id": "latyshova.p098",
+  "canvas": [
+    960,
+    540
+  ],
+  "template": "crossplot",
+  "fps": 24,
+  "objects": [
+    "оси",
+    "две направляющие",
+    "точка"
+  ],
+  "state": {
+    "porosity_percent": 25,
+    "resistivity_ohm_m": 20
+  },
+  "invariants": [
+    "точка на пересечении направляющих",
+    "обе координаты относятся к одному интервалу"
+  ],
+  "assumptions": [
+    "границы полей не воспроизведены",
+    "вывод приведён по авторскому примеру"
+  ],
+  "source_claim": "latyshova.p098#c1",
+  "source_page_pdf": 98
+}

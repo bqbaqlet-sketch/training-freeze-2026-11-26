@@ -1,0 +1,77 @@
+{
+  "chapter": "basniev",
+  "routes": [
+    {
+      "node_id": "basniev.p474",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 1,
+        "invisible": 1,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 1
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "basniev.p478",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "basniev.p482",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 1,
+        "invisible": 1,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 1
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "basniev.p488",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 1,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "basniev.p494",
+      "format": "шортс",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 1
+      },
+      "why": "Изменение зоны давления во времени."
+    },
+    {
+      "node_id": "basniev.p498",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 1,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+﻿unit_id;kind;page_pdf;excerpt;node_ids;reason;needs_review
+p476-u004;formula;476;$$- \beta_{\text{ж}} V_{0\text{ж}} \Delta p = \Delta V_{\text{ж}} \quad \text{и} \quad \beta_{\text{с}} V_0 \Delta p = \Delta V_{\text{п}}.$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p476-u006;formula;476;$$\Delta V_{\text{з}} = \beta_{\text{ж}} V_{0\text{ж}} \Delta p + \beta_{\text{с}} V_0 \Delta p. \quad (23.1)$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p476-u008;formula;476;$$V_{0\text{ж}} = m V_0, \quad (23.2)$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p476-u011;formula;476;$$\Delta V_{\text{з}} = (m \beta_{\text{ж}} + \beta_{\text{с}}) V_0 \Delta p, \quad (23.3)$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p476-u013;formula;476;$$\Delta V_{\text{з}} = \beta^* V_0 \Delta p, \quad (23.4)$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p476-u015;formula;476;$$\beta^* = m \beta_{\text{ж}} + \beta_{\text{с}}. \quad (23.5)$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p476-u017;formula;476;$$\beta^* = \frac{\Delta V_{\text{з}}}{V_0 \Delta p}.$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p477-u004;formula;477;$$\Delta p = p_\kappa - \bar{p}, \quad (23.6)$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p477-u008;formula;477;$$d(\Delta V_3) = \beta^* d[V_0(t) \Delta p].$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p477-u010;formula;477;$$d(\Delta V_3) = Q(t) dt,$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p477-u013;formula;477;$$\beta^* d[V_0(t) \Delta p] = Q(t) dt. \quad (23.7)$$;basniev.p474;;Проверить обозначения, индексы и единицы по PDF.
+p478-u005;formula;478;$$\frac{\partial m\rho}{\partial t} + \text{div } \rho\bar{w} = 0,$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u006;formula;478;$$\bar{w} = -\frac{k}{\mu}(\text{grad } p + \rho\bar{f}), \quad (23.8)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u007;formula;478;$$\rho = \rho(p), \ m = m(p), \ k = k(p), \ \mu = \mu(p),$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u009;formula;478;$$\frac{\partial m\rho}{\partial t} - \Delta P = 0,$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u010;formula;478;$$\rho\bar{w} = -\text{grad } P,$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u011;formula;478;$$\rho = \rho(p), \ m = m(p), \ k = k(p), \ \mu = \mu(p), \quad (23.9)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u012;formula;478;$$P = \int \frac{k(p)}{\mu(p)} \rho(p) \, dp.$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u014;formula;478;$$\rho = \rho_0 [1 + \beta_\infty (p - p_0)], \quad (23.10)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p478-u015;formula;478;$$m = m_0 + \beta_c (p - p_0). \quad (23.11)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u006;formula;479;$$\frac{\partial m\rho}{\partial t} - \Delta P = 0,$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u007;formula;479;$$\rho\dot{w} = -\text{grad } P,$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u008;formula;479;$$\rho = \rho_0[1 + \beta_\infty(p - p_0)],$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u009;formula;479;$$m = m_0 + \beta_c(p - p_0),$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u010;formula;479;$$k = \text{const}, \mu = \text{const},$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u011;formula;479;$$P = \frac{k}{\mu} \int \rho \, dp.$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u014;formula;479;$$\frac{\partial(m\rho)}{\partial t} = \frac{k}{\mu} \Delta \int \rho \, dp. \quad (23.12)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u016;formula;479;$$\rho = \rho_0[1 + \beta_\infty(p - p_0)], \quad m = m_0 + \beta_c(p - p_0),$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p479-u018;formula;479;$$m\rho = m_0\rho_0 + (m_0\rho_0\beta_\infty + \rho_0\beta_c)(p - p_0) + \rho_0\beta_c\beta_\infty(p - p_0)^2.$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u004;formula;480;$$m\rho = m_0\rho_0 \left[ 1 + \beta^* (p - p_0)/m_0 \right],$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u006;formula;480;$$\frac{\partial(m\rho)}{\partial t} = \rho_0\beta^* \frac{\partial p}{\partial t}. \quad (23.13)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u008;formula;480;$$\frac{k}{\mu} \Delta \left( \int \rho dp \right).$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u010;formula;480;$$\frac{k}{\mu} \Delta \left( \int \rho dp \right) = \frac{k}{\mu} \Delta \left( \rho_0 p + \rho_0 \beta_\text{ж} \left( \frac{p^2}{2} - p_0 p \right) + C \right),;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u012;formula;480;$$\frac{k}{\mu} \Delta \left( \int \rho dp \right) = \frac{k}{\mu} \rho_0 \Delta p. \quad (23.15)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u014;formula;480;$$\beta^* \frac{\partial p}{\partial t} = \frac{k}{\mu} \Delta p, \quad (23.16)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u016;formula;480;$$\frac{\partial p}{\partial t} = \kappa \left( \frac{\partial^2 p}{\partial x^2} + \frac{\partial^2 p}{\partial y^2} + \frac{\partial^2 p}{\partial z^2} \right),;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p480-u018;formula;480;$$\kappa = k / (\mu \beta^*). \quad (23.18)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p481-u005;formula;481;$$[\kappa] = \frac{h}{[\mu][\beta^*]} = \frac{L^2}{L^{-1}MT^{-1}LM^{-1}T^2} = \frac{L^2}{T},$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p481-u013;formula;481;$$\frac{\partial p}{\partial t} = \kappa \frac{\partial^2 p}{\partial x^2}, \quad 0 < x < \infty. \quad (23.19)$$;basniev.p478;;Проверить обозначения, индексы и единицы по PDF.
+p482-u004;formula;482;"$$p(x, t) = p_\kappa \quad \text{при} \quad t = 0;$$";basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u005;formula;482;"$$p(x, t) = p_\tau \quad \text{при} \quad x = 0, \quad t > 0; \tag{23.20}$$";basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u006;formula;482;$$p(x, t) = p_\kappa \quad \text{при} \quad x = \infty, \quad t \geq 0.$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u010;formula;482;$$P = f(x, t, \kappa).$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u012;formula;482;$$P = 0 \quad \text{при} \quad u = 0,$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u013;formula;482;$$P = 1 \quad \text{при} \quad u = \infty. \tag{23.21}$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u015;formula;482;$$\frac{\partial P}{\partial t} = \kappa \frac{\partial^2 P}{\partial x^2}. \tag{23.22}$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u017;formula;482;$$\frac{\partial P}{\partial x} = \frac{dP}{du} \frac{\partial u}{\partial x} = \frac{dP}{du} \frac{1}{2\sqrt{\kappa t}},$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u018;formula;482;$$\frac{\partial P}{\partial t} = \frac{dP}{du} \frac{\partial u}{\partial t} = \frac{dP}{du} \frac{x}{2\sqrt{\kappa}} \left( -\frac{1}{2\sqrt{t^3}} \right) = \frac{dp}{du};basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p482-u019;formula;482;$$\frac{\partial^2 P}{\partial x^2} = \frac{\partial}{\partial x} \left( \frac{\partial P}{\partial x} \right) = \frac{\partial}{\partial x} \left( \frac{dP}{du};basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u004;formula;483;$$\frac{d^2P}{du^2} + 2u \frac{dP}{du} = 0, \quad (23.23)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u006;formula;483;$$\frac{d\xi}{du} + 2u\xi = 0. \quad (23.24)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u008;formula;483;$$\frac{d\xi}{\xi} = -2udu$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u010;formula;483;$$\ln \xi = -u^2 + \ln C_1,$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u012;formula;483;$$\xi = \frac{dP}{du} = C_1 e^{-u^2}, \quad (23.25)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u015;formula;483;$$P = C_1 \int_0^u e^{-u^2} du.$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u017;formula;483;$$1 = C_1 \int_0^\infty e^{-u^2} du.$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p483-u019;formula;483;$$P = \frac{2}{\sqrt{\pi}} \int_0^{\frac{x}{2\sqrt{\pi}}} e^{-u^2} du. \quad (23.26)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p484-u004;formula;484;$$\frac{2}{\sqrt{\pi}} \int_0^{\frac{x}{2\sqrt{\kappa t}}} e^{-u^2} du = \operatorname{erf}\left(\frac{x}{2\sqrt{\kappa t}}\right).$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p484-u006;formula;484;$$p = p_{\mathrm{r}} + (p_{\mathrm{k}} - p_{\mathrm{r}}) \operatorname{erf}\left(\frac{x}{2\sqrt{\kappa t}}\right). \quad (23.27)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p484-u008;figure;484;━━━ FORMAT 6: XY PLOT / CHART WITH DATA ━━━ **График изменения давления p в зависимости от координаты x для разных моментов времени** Оси: - Вертикальная ось —;basniev.p482;;"Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+p484-u009;figure;484;Рис. 23.1. Кривые распределения давления в различные моменты времени в неустановившемся прямолинейно-параллельном потоке упругой жидкости при условии $p_{\mathrm{r}};basniev.p482;;"Сверить рисунок по PDF; требуется отдельная перерисовка."
+p484-u011;formula;484;$$w = \frac{k}{\mu} \left(\frac{\partial p}{\partial x}\right)_{x=0}, \quad Q = \frac{k}{\mu} Bh \left(\frac{\partial p}{\partial x}\right)_{x=0}, \quad (23.28)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p484-u013;formula;484;$$\left(\frac{\partial p}{\partial x}\right)_{x=0} = (p_{\mathrm{k}} - p_{\mathrm{r}}) \left(\frac{2}{\sqrt{\pi}} e^{-\left(\frac{x}{2\sqrt{\kappa t}}\right)^2};basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p484-u015;formula;484;$$Q = \frac{k}{\mu} \frac{p_{\mathrm{k}} - p_{\mathrm{r}}}{\sqrt{\pi \kappa t}} Bh. \quad (23.30)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p485-u005;formula;485;$$V_{доб} = \int_0^t Q(t)dt = \frac{k(p_к - p_г)Bh}{\mu\sqrt{\pi\kappa t}} \int_0^t \frac{dt}{\sqrt{t}} = \frac{2k(p_к - p_г)Bh}{\mu\sqrt{\pi\kappa}} \sqrt{t},$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p485-u009;formula;485;"$$\begin{aligned} p(x, t) &= p_к \quad \text{при} \quad t = 0; \\ w(x, t) &= \frac{k}{\mu} \frac{\partial p}{\partial x} = w_1 = \text{const} \quad \text{при} \quad";basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p485-u012;figure;485;Рис. 23.2. Зависимости дебита и добычи жидкости от времени после пуска галереи при условии $p_г = \text{const}$;basniev.p482;;"Сверить рисунок по PDF; требуется отдельная перерисовка."
+p486-u004;formula;486;$$\frac{k}{\mu} \frac{\partial^2 p}{\partial x \partial t} = \frac{k}{\mu} \kappa \frac{\partial^3 p}{\partial x^3},$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u006;formula;486;$$\frac{\partial}{\partial t} \left( \frac{k}{\mu} \frac{\partial p}{\partial x} \right) = \kappa \frac{\partial^2}{\partial x^2} \left( \frac{k}{\mu} \frac{\partial;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u008;formula;486;$$\frac{k}{\mu} \frac{\partial p}{\partial x} = w(x, t),$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u010;formula;486;$$\frac{\partial w(x, t)}{\partial t} = \kappa \frac{\partial^2 w(x, t)}{\partial x^2}. \quad (23.33)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u012;formula;486;$$w = C_1 \operatorname{erf} \left( \frac{x}{2\sqrt{\kappa t}} \right) + C_2. \quad (23.34)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u014;formula;486;$$w(x, 0) = 0, \quad w(0, t) = w_1.$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u017;formula;486;$$0 = C_1 \frac{2}{\sqrt{\pi}} \int_0^\infty e^{-u^2} du + C_2.$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u019;formula;486;$$0 = C_1 + C_2.$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u021;formula;486;$$w_1 = C_1 \frac{2}{\sqrt{\pi}} \int_0^0 e^{-u^2} du + C_2.$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p486-u023;formula;486;$$w(x, t) = w_1 \left[ 1 - \operatorname{erf} \left( \frac{x}{2\sqrt{\kappa t}} \right) \right] = \frac{k}{\mu} \frac{\partial p}{\partial x}. \quad (23.35)$$;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p487-u004;formula;487;$$\frac{k}{\mu} \int_0^x \frac{\partial p}{\partial x} dx = w_1 \int_0^x \left( 1 - \frac{2}{\sqrt{\pi}} \int_0^{\frac{1}{2\sqrt{\kappa t}}} e^{-u^2} du \right);basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p487-u006;formula;487;$$p(x, t) - p(0, t) = \frac{\mu}{k} w_1 x - \frac{\mu}{k} \frac{2}{\sqrt{\pi}} w_1 \int_0^x \left( \int_0^{\frac{1}{2\sqrt{\kappa t}}} e^{-u^2} du \right) dx. \quad;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p487-u008;formula;487;$$\begin{aligned} \frac{\mu}{k} \frac{2}{\sqrt{\pi}} w_1 \int_0^x \left( \int_0^{x/2\sqrt{\kappa t}} e^{-u^2} du \right) dx &= \\ &= \frac{\mu}{k} \frac{2}{\sqrt{\pi}};basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p487-u010;formula;487;$$p(x, t) - p(0, t) = \frac{\mu w_1}{k} x \left[ 1 - \text{erf} \left( \frac{x}{2\sqrt{\kappa t}} \right) + \frac{1 - e^{-x^2/4\kappa t}}{\frac{\sqrt{\pi}x}{2\sqrt{\kappa;basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p487-u012;formula;487;$$p(x, t) = p_\text{r} + \frac{\mu w_1}{k} \left[ x \left( 1 - \text{erf} \left( \frac{x}{2\sqrt{\kappa t}} \right) \right) + \frac{2\sqrt{\kappa t}}{\sqrt{\pi}};basniev.p482;;Проверить обозначения, индексы и единицы по PDF.
+p488-u004;formula;488;$$p_{\mathrm{r}}(t) = p_{\mathrm{k}} - \frac{2\mu w_1}{k\sqrt{\pi}} \sqrt{kt}$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p488-u006;formula;488;$$p_{\mathrm{r}}(t) = p_{\mathrm{k}} - \frac{Q\mu}{Bh} \frac{2}{k} \frac{\sqrt{kt}}{\sqrt{\pi}}. \quad (23.39)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p488-u011;formula;488;$$\frac{\partial p}{\partial t} = \kappa \left( \frac{\partial^2 p}{\partial r^2} + \frac{1}{r} \frac{\partial p}{\partial r} \right). \quad (23.40)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p488-u013;formula;488;$$p(r, t) = p_{\mathrm{k}} \quad \text{при } t = 0,$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p488-u014;formula;488;$$p(r, t) = p_{\mathrm{k}} \quad \text{при } t > 0 \text{ и } r \to \infty, \quad (23.41)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p488-u015;formula;488;$$Q = \frac{2\pi kh}{\mu} \left( r \frac{\partial p}{\partial r} \right)_{r=0} = Q_0 = \text{const} \quad \text{при } t > 0.$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u004;formula;489;$$\left( r \frac{\partial p}{\partial r} \right)_{r=0} = \frac{Q_0 \mu}{2\pi k h}. \quad (23.42)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u006;formula;489;$$[r] = L, [t] = T, [\kappa] = L^2 T^{-1}, [p_\kappa] = [p], \\ \left[ \frac{Q_0 \mu}{2\pi k h} \right] = [p],$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u008;formula;489;$$P = f \left( \xi, \frac{Q_0 \mu}{2\pi k h p_\kappa} \right), \quad \xi = \frac{r}{2\sqrt{\kappa t}}. \quad (23.43)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u010;formula;489;$$\frac{\partial P}{\partial t} = - \frac{dP}{d\xi} \frac{\xi}{2t}, \quad \frac{\partial P}{\partial r} = \frac{dP}{d\xi} \frac{1}{2\sqrt{\kappa t}}, \quad \frac{\partial^2;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u012;formula;489;$$\frac{d^2 P}{d\xi^2} + \left( \frac{1}{\xi} + 2\xi \right) \frac{dP}{d\xi} = 0, \quad (23.44)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u014;formula;489;$$P(\xi) = 1 \quad \text{при } \xi \to \infty,$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u015;formula;489;$$\left( \xi \frac{dP}{d\xi} \right)_{\xi=0} = \frac{Q_0 \mu}{2\pi k h p_\kappa}. \quad (23.45)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u017;formula;489;$$\frac{dP}{d\xi} = v$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p489-u019;formula;489;$$\frac{dv}{d\xi} + \left( \frac{1}{\xi} + 2\xi \right) v = 0,$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u004;formula;490;$$\frac{d\xi}{\xi} + \frac{dv}{v} = -2\xi d\xi. \quad (23.46)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u006;formula;490;$$\ln \xi + \ln v = -\xi^2 + \ln C_1, \quad (23.47)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u009;formula;490;$$v = \frac{dP}{d\xi} = C_1 \frac{e^{-\xi^2}}{\xi}. \quad (23.48)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u011;formula;490;$$P(\xi) = -C_1 \int_{\xi}^{\infty} \frac{e^{-\xi^2}}{\xi} d\xi + 1. \quad (23.49)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u013;formula;490;$$C_1 = \frac{Q_0 \mu}{2\pi k h p_\kappa}.$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u015;formula;490;$$P(\xi) = 1 - \frac{Q_0 \mu}{2\pi k h p_\kappa} \int_{\xi}^{\infty} \frac{e^{-\xi^2}}{\xi} d\xi \quad (23.50)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u017;formula;490;$$u = \xi^2 = \frac{r^2}{4\kappa t}, \quad \frac{d\xi}{\xi} = \frac{du}{2u}.$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u019;formula;490;$$p(r, t) = p_\kappa - \frac{Q_0 \mu}{2\pi k h} \int_{r^2/(4\kappa t)}^{\infty} \frac{e^{-u}}{u} du. \quad (23.51)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p490-u021;formula;490;$$- \text{Ei} \left( - \frac{r^2}{4\kappa t} \right) = \int_{r^2/(4\kappa t)} \frac{e^{-u}}{u} du.$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u004;formula;491;$$p(r, t) = p_\kappa - \frac{Q_0 \mu}{4 \pi k h} \left[ - \text{Ei} \left( - \frac{r^2}{4 \kappa t} \right) \right]. \quad (23.52)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u007;formula;491;$$- \text{Ei} (- x) = \ln \frac{1}{x} - \gamma + \sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n \cdot n!} x^n,$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u010;formula;491;$$- \text{Ei} (- x) = \ln \frac{1}{x} - 0,5772.$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u012;formula;491;"$$0,25\%, \quad \text{если } x = \frac{r^2}{4 \kappa t} \leq 0,01;$$";basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u013;formula;491;"$$5,7\%, \quad \text{если } x \leq 0,1;$$";basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u014;formula;491;$$9,7\%, \quad \text{если } x \leq 0,14.$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u016;formula;491;$$p(r, t) = p_\kappa - \frac{Q_0 \mu}{4 \pi k h} \left( \ln \frac{4 \kappa t}{r^2} - 0,5772 \right). \quad (23.53)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p491-u017;figure;491;"━━━ FORMAT 6: XY PLOT / CHART WITH DATA ━━━ Оси: - Ось абсцисс: x, линейная шкала, диапазон приблизительно от 0 до 2,2 (подписанные деления: 0; 0,5; 1; 1,5; 2).";basniev.p488;;"Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+p491-u018;figure;491;Рис. 23.3. График интегральной показательной функции;basniev.p488;;"Сверить рисунок по PDF; требуется отдельная перерисовка."
+p492-u004;formula;492;$$Q(r, t) = \frac{k}{\mu} \frac{\partial p}{\partial r} 2\pi rh = Q_0 e^{-r^2/4\kappa t}, \quad (23.54)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p492-u005;formula;492;$$w = \frac{Q_0}{2\pi rh} e^{-r^2/4\kappa t}. \quad (23.55)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p492-u008;formula;492;$$f_0 = \frac{\kappa t}{r_c^2}, \quad F_0 = \frac{\kappa t}{R_k^2}. \quad (23.56)$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p492-u013;formula;492;$$t = f_0 \frac{r_c^2}{\kappa} = 100 \frac{0,1^2}{1} = 1$ с.;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p493-u008;formula;493;$$\partial p / \partial r = Q_0 \mu / (2 \pi k r).$$;basniev.p488;;Проверить обозначения, индексы и единицы по PDF.
+p493-u009;figure;493;"Рис. 23.4. Пьезометрические кривые при пуске скважины с постоянным дебитом Q₀; rc – радиус скважины; Rк – радиус кругового контура питания или радиус круговой непроницаемой";basniev.p488;;"Сверить рисунок по PDF; требуется отдельная перерисовка."
+p495-u009;formula;495;$$p(x, t) = p_к - \frac{Q\mu}{kBh} (l(t) - x), \quad 0 \leq x \leq l(t). \quad (24.1)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p495-u012;formula;495;$$Qdt = \beta^* d[V(t)\Delta p], \quad (24.2)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p495-u014;formula;495;"$$V(t) = Bh l(t); \quad (24.3)$$";basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p495-u015;formula;495;$$\Delta p = p_к - \bar{p} = p_к - \frac{p_к + p_г}{2} = \frac{p_к - p_г}{2}. \quad (24.4)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p495-u016;figure;495;"━━━ FORMAT 6: XY PLOT / CHART WITH DATA ━━━ Оси: вертикальная ось — p (давление), без указанных единиц; горизонтальная ось — x (координата, направление вдоль пласта),";basniev.p494;;"Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+p495-u017;figure;495;Рис. 24.1. Кривые распределения давления в прямолинейно-параллельном потоке по методу ПССС;basniev.p494;;"Сверить рисунок по PDF; требуется отдельная перерисовка."
+p496-u004;formula;496;$$Q = \frac{k}{\mu} \frac{p_{\mathrm{k}} - p_{\mathrm{r}}}{l(t)} Bh,$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u006;formula;496;$$\frac{Q \mu l(t)}{2kBh} = \frac{p_{\mathrm{k}} - p_{\mathrm{r}}}{2}. \quad (24.5.)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u008;formula;496;$$Q = \beta^* \frac{d}{dt} \left( Bhl \frac{Q \mu l}{2kBh} \right),$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u010;formula;496;$$2Q = \frac{\beta^* \mu}{k} Q \frac{d}{dt} (l^2),$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u012;formula;496;$$2\kappa dt = dl^2 \quad (\kappa = k/(\mu \beta^*)).$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u014;formula;496;$$l(t) = \sqrt{2\kappa t}. \quad (24.6)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u016;formula;496;$$p(x, t) = p_{\mathrm{k}} - \frac{Q \mu}{kBh} (\sqrt{2\kappa t} - x), \quad 0 \leq x \leq \sqrt{2\kappa t}, \quad (24.7)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u017;formula;496;$$p(x, t) = p_{\mathrm{k}}, \quad x > \sqrt{2\kappa t}.$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p496-u021;formula;496;$$Q(t) = \frac{k(p_{\mathrm{k}} - p_{\mathrm{r}})}{\mu l(t)} Bh = \frac{k}{\mu} Bh \left. \frac{\partial p}{\partial x} \right|_{x=0}.$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u004;formula;497;$$V(t) = B h l(t),$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u005;formula;497;$$\Delta p = p_\kappa - \bar{p} = p_\kappa - \frac{p_\kappa + p_\tau}{2} = \frac{p_\kappa - p_\tau}{2},$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u006;formula;497;$$Q(t) = \frac{k(p_\kappa - p_\tau)}{\mu l(t)} Bh.$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u008;formula;497;$$\frac{k(p_\kappa - p_\tau)}{\mu l(t)} Bh dt = \beta^* d \left[ Bhl \frac{p_\kappa - p_\tau}{2} \right].$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u010;formula;497;$$l(t) = 2\sqrt{\kappa t}.$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u012;formula;497;$$p(x, t) = p_\kappa - (p_\kappa - p_\tau) \left( 1 - \frac{x}{2\sqrt{\kappa t}} \right), \quad 0 < x \leq 2\sqrt{\kappa t}, \quad (24.8)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u013;formula;497;$$p(x, t) = p_\kappa, \quad x > 2\sqrt{\kappa t},$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p497-u015;formula;497;$$Q(t) = \frac{k(p_\kappa - p_\tau)}{\mu 2\sqrt{\kappa t}} Bh. \quad (24.9)$$;basniev.p494;;Проверить обозначения, индексы и единицы по PDF.
+p498-u004;formula;498;$$p(r, t) = p_\kappa - \frac{Q\mu}{2\pi kh} \ln \frac{R(t)}{r}. \quad (24.10)$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p498-u005;figure;498;━━━ FORMAT 6: XY PLOT / CHART WITH DATA ━━━ Тип графика: зависимость давления p от радиуса r в пласте для разных моментов времени (депрессионная воронка при нестационарной;basniev.p498;;"Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+p498-u006;figure;498;Рис. 24.2. Кривые распределения давления в плоскорадиальном потоке в разные моменты времени по методу ПССС (отбор осуществляется при условии $Q = \text{const}$);basniev.p498;;"Сверить рисунок по PDF; требуется отдельная перерисовка."
+p498-u010;formula;498;$$Q = \frac{2\pi kh(p_\kappa - p_c(t))}{\mu \ln(R(t)/r_c)}. \quad (24.11)$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p498-u012;formula;498;$$V(t) = \pi(R^2(t) - r_c^2)h, \quad \Delta p = p_\kappa - \bar{p}. \quad (24.12)$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p498-u014;formula;498;$$\bar{p} = p_\kappa - \frac{p_\kappa - p_c}{2 \ln(R(t)/r_c)},$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p498-u016;formula;498;$$\Delta p = p_\kappa - \bar{p} = \frac{p_\kappa - p_c}{2 \ln(R(t)/r_c)} = \frac{Q\mu}{4\pi kh}. \quad (24.13)$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p498-u018;formula;498;$$4\kappa dt = d(R^2(t) - r_c^2),$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p498-u020;formula;498;$$R(t) = \sqrt{r_c^2 + 4\kappa t}. \quad (24.14)$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p499-u004;formula;499;"$$p(r, t) = p_\kappa - \frac{Q\mu}{2\pi kh} \ln \frac{\sqrt{r_c^2 + 4\kappa t}}{r}, \quad r_c \leq r \leq \sqrt{r_c^2 + 4\kappa t}; \quad (24.15)$$";basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p499-u005;formula;499;$$p(r, t) = p_\kappa, \quad r > \sqrt{r_c^2 + 4\kappa t}.$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p499-u007;formula;499;$$\Delta p_c \equiv p_\kappa - p_c(t) = \frac{Q\mu}{2\pi kh} \ln \frac{\sqrt{r_c^2 + 4\kappa t}}{r_c}. \quad (24.16)$$;basniev.p498;;Проверить обозначения, индексы и единицы по PDF.
+p499-u013;figure;499;━━━ FORMAT 6: XY PLOT / CHART WITH DATA ━━━ - Ось Y: R(t)/r_c — безразмерное отношение (радиус R(t) к некоторому характерному радиусу r_c), линейная шкала, диапазон;basniev.p498;;"Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+p499-u014;figure;499;Рис. 24.3. Зависимость безразмерного радиуса возмущенной области $R(t)/r_c$ от безразмерного времени $f_0$ при отборе жидкости с постоянным забойным давлением $p_c;basniev.p498;;"Сверить рисунок по PDF; требуется отдельная перерисовка."

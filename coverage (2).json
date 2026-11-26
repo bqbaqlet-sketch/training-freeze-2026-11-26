@@ -1,0 +1,1732 @@
+{
+  "chapter": "kuznetsov",
+  "rows": [
+    {
+      "unit_id": "p200-u001",
+      "kind": "heading",
+      "page_pdf": 200,
+      "excerpt": "## ПРИРОДНЫЕ РЕЗЕРВУАРЫ РИФОВ",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p200-u002",
+      "kind": "heading",
+      "page_pdf": 200,
+      "excerpt": "### 10.1. КРАТКИЕ СВЕДЕНИЯ О ГЕОЛОГИИ РИФОВ И ИХ ТИПАХ",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p200-u003",
+      "kind": "paragraph",
+      "page_pdf": 200,
+      "excerpt": "Рифы являются весьма специфическим типом карбонатных отложений, где в максимальной степени проявляется биогенный способ образования и осаждения карбонатного материала.",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p200-u004",
+      "kind": "paragraph",
+      "page_pdf": 200,
+      "excerpt": "В определенной степени это привело к неоправданному расширению понятия «риф», что и обусловило необходимость введения дополнительных терминов. Стало ясно, что существует",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p200-u005",
+      "kind": "paragraph",
+      "page_pdf": 200,
+      "excerpt": "Органогенные постройки включают два типа – биостромы и биогермы (*рис. 10.1*) Биостром – геологическое тело, представляющее собой пласт, серию пластов или уплощенную",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p200-u006",
+      "kind": "paragraph",
+      "page_pdf": 200,
+      "excerpt": "200",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u001",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "а",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u002",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "Уровень моря",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u003",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "б",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u004",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "Уровень моря",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u005",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "в",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u006",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "Уровень моря",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u007",
+      "kind": "figure",
+      "page_pdf": 201,
+      "excerpt": "━━━ FORMAT 12: CONCEPTUAL DIAGRAM / КОНЦЕПТУАЛЬНАЯ СХЕМА ━━━ Схематический поперечный разрез симметричной куполообразной структуры с дугообразно изогнутыми внутренними",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p201-u008",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "г",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u009",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "Уровень моря",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u010",
+      "kind": "figure",
+      "page_pdf": 201,
+      "excerpt": "Рис. 10.1. Схема строения органогенных построек: биостромов (а), биогермов (б) и рифов: симметричных куполовидных (в) и асимметричных рифовых систем (г).",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p201-u011",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "Фации: 1 – ядра рифа (биогермные), 2 – предрифового шлейфа, 3 – тыльно-рифовые, 4 – в той или иной степени глубоководные межрифовые и предрифовые, 5 – мелководные",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u012",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "N – десятки, сотни, иногда первые тысячи метров; n – метры, реже первые десятки метров",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u013",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "щихся друг к другу организмов, т.е. также сложенное карбонатными породами биогермной структуры. Во время роста этот холм возвышался над дном бассейна, но не выходил",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u014",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "Рифы – это сложные геологические образования, возникающие в результате жизнедеятельности колониальных или нарастающих организмов и представляющие собой карбонатный",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u015",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "Естественно, что для геологов-нефтяников наибольший интерес представляют рифы в узком буквальном смысле этого слова. Именно они, точнее строение их резервуаров и",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p201-u016",
+      "kind": "paragraph",
+      "page_pdf": 201,
+      "excerpt": "201",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u001",
+      "kind": "paragraph",
+      "page_pdf": 202,
+      "excerpt": "[1988], В.Г. Кузнецова [1978, 1992], специальных сборниках [Ископаемые..., 1975, Литология..., 1975, Методы..., 1983] и др.",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u002",
+      "kind": "paragraph",
+      "page_pdf": 202,
+      "excerpt": "Сами рифы различаются по своей морфологии, положению в бассейне, т.е. тектонической и палеогеографической позиции.",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u003",
+      "kind": "paragraph",
+      "page_pdf": 202,
+      "excerpt": "Выделяется два основных типа рифов – одиночные рифы и асимметричные рифовые системы. Первые формируются как в мелководных, так и глубоководных обстановках на локальных",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u004",
+      "kind": "heading",
+      "page_pdf": 202,
+      "excerpt": "## 10.2. ЛИТОЛОГИЯ И КОЛЛЕКТОРСКИЕ СВОЙСТВА СЛАГАЮЩИХ РИФЫ ПОРОД",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u005",
+      "kind": "paragraph",
+      "page_pdf": 202,
+      "excerpt": "Основу рифовых сооружений, а тем более биостромов и биогермов, составляют биогермные известняки, образованные остатками колониальных или нарастающих организмов,",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u006",
+      "kind": "paragraph",
+      "page_pdf": 202,
+      "excerpt": "В большинстве рифовых комплексов ведущее значение по распространенности имеют обломочные разности известняков, причем, их содержание часто превышает 50 % и нередко",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u007",
+      "kind": "paragraph",
+      "page_pdf": 202,
+      "excerpt": "Среди других известняков в рифовых комплексах достаточно обычны раковинные, органогенно-обломочные (биокластовые), оолитовые, микрозернистые, сгустковые и другие,",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p202-u008",
+      "kind": "paragraph",
+      "page_pdf": 202,
+      "excerpt": "202",
+      "node_ids": [
+        "kuznetsov.p200"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u001",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "ными гидродинамическими условиями, а также деятельностью организмов.",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u002",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "Очень характерной чертой является частая и нередко почти полная перекристаллизация и доломитизация рифов или их значительных участков.",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u003",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "Чрезвычайно важная особенность рифовых сооружений – закономерное расположение различных литологических типов пород в теле массива, которое сопровождается подобным",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u004",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "Сам характер литолого-фациальной зональности зависит от типа рифов: являются ли они одиночными или входят с состав асимметричных рифовых систем.",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u005",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "По своей морфологии, типу поперечного сечения одиночные рифы могут быть куполовидными, плосковершинными и атоллами.",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u006",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "Одиночные куполовидные рифы включают две основные литолого-фациальные зоны – ядра рифа и его склона (предрифовый шлейф). Фации рифового ядра сложены обычно биогермными",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u007",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "В атолловидных рифах и атоллах появляются новые фациальные зоны, и характер зональности становится более сложным. Биогермные и мелкообломочные породы ядра рифа располагаются",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p203-u008",
+      "kind": "paragraph",
+      "page_pdf": 203,
+      "excerpt": "203",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p204-u001",
+      "kind": "paragraph",
+      "page_pdf": 204,
+      "excerpt": "ных – неморских тыльнорифовых склонах рифового гребня также формируются обломочные известняки, хотя и более тонкие, чем на предрифовых склонах. Отложения этой фации",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p204-u002",
+      "kind": "paragraph",
+      "page_pdf": 204,
+      "excerpt": "Рифовые системы представляют собой более или менее протяженную цепь, состоящую из ряда соединяющихся или отдельных рифов различной формы. Приуроченность рифовых",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p204-u003",
+      "kind": "paragraph",
+      "page_pdf": 204,
+      "excerpt": "В какой-то степени в линейно вытянутых рифовых системах отмечается аналогичный атоллам характер литолого-экологической зональности, однако отдельные фациальные зоны",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p204-u004",
+      "kind": "paragraph",
+      "page_pdf": 204,
+      "excerpt": "Разнообразие структурно-генетических типов пород и их частная интенсивная вторичная переработка определяют и разнообразие типов коллекторов, их качества, характера",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p204-u005",
+      "kind": "paragraph",
+      "page_pdf": 204,
+      "excerpt": "Важное значение имеет межгранулярная первичная пористость в обломочных, органогенно-обломочных и оолитовых известняках. В первичное пустотное пространство рифов",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p204-u006",
+      "kind": "paragraph",
+      "page_pdf": 204,
+      "excerpt": "204",
+      "node_ids": [
+        "kuznetsov.p203"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u001",
+      "kind": "paragraph",
+      "page_pdf": 205,
+      "excerpt": "ленные и нередко крупные пещеровидные пустоты, формирующиеся в волноприбойных каналах, нишах и рифовых туннелях, а также образующиеся при неравномерном и неполном",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u002",
+      "kind": "paragraph",
+      "page_pdf": 205,
+      "excerpt": "Первичная пористость в чистом виде и в полном объеме практически не сохраняется и уже в процессе роста рифа может сокращаться за счет развития инкрустирующих водорослей,",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u003",
+      "kind": "paragraph",
+      "page_pdf": 205,
+      "excerpt": "Большое значение имеет также вторичная пористость. Наиболее важной является каверновая пустотность, образующаяся при активном выщелачивании, в том числе карстовом.",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u004",
+      "kind": "paragraph",
+      "page_pdf": 205,
+      "excerpt": "Другой тип вторичной пористости – межкристаллическая пористость, образующаяся в результате перекристаллизации и доломитизации.",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u005",
+      "kind": "heading",
+      "page_pdf": 205,
+      "excerpt": "### 10.3. СТРОЕНИЕ РИФОВЫХ РЕЗЕРВУАРОВ",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u006",
+      "kind": "paragraph",
+      "page_pdf": 205,
+      "excerpt": "В очень большой степени от морфолого-генетического типа рифов зависит площадное распространение зон улучшенных коллекторских свойств. Наиболее простое распределение",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u007",
+      "kind": "paragraph",
+      "page_pdf": 205,
+      "excerpt": "В качестве примера на рис. 10.2 приведены данные по резервуару хорошо изученного рифа Рейнбоу «А» в Канаде [Langton, Chin, 1968]. Это островершинный риф (пиннакл)",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p205-u008",
+      "kind": "paragraph",
+      "page_pdf": 205,
+      "excerpt": "205",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p206-u001",
+      "kind": "figure",
+      "page_pdf": 206,
+      "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Ориентация разреза: СЗ (слева) — ЮВ (справа). Вертикальная ось: $H$, м; отметки 0, 50, 100, 150, 200, 250 м. Значения высоты",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p206-u002",
+      "kind": "figure",
+      "page_pdf": 206,
+      "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Вертикальная ось: $H$, м; значения от 0 внизу до 250 вверху, высота возрастает вверх. Горизонтальная шкала: 0, 500, 1000,",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p206-u003",
+      "kind": "figure",
+      "page_pdf": 206,
+      "excerpt": "Рис. 10.2. Профильные разрезы рифа Рейнбоу А, Канада [Langton, Chin, 1968]: а – литолого-фациальный, б – типов коллекторов.",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p206-u004",
+      "kind": "paragraph",
+      "page_pdf": 206,
+      "excerpt": "Известняки: 1 – мелкозернистые тонкослоистые, 2 – мелкозернистые светлоокрашенные, 3 – микро- и тонкозернистые с обильными амфипорами, 4 – с крупными обломками разнообразных",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p206-u005",
+      "kind": "paragraph",
+      "page_pdf": 206,
+      "excerpt": "Группы коллекторов: I – пористость 10–30 %; проницаемость 50–2000·10⁻¹⁵ м²; II – пористость 15–35 %, проницаемость 30–30000·10⁻¹⁵ м²; III – пористость 8–15 %, проницаемость",
+      "node_ids": [
+        "kuznetsov.p205"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p207-u001",
+      "kind": "paragraph",
+      "page_pdf": 207,
+      "excerpt": "не с диаметром около 2 км. Пустотное пространство меж- и внутриформенное, имеются мелкие каверны (ваги), пустоты-шаблоны (молдик), трещины. В отложениях рифа выделено",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p207-u002",
+      "kind": "paragraph",
+      "page_pdf": 207,
+      "excerpt": "В соответствии с литолого-фациальной зональностью распределены коллекторские свойства. В ядре, сложенном преимущественно строматопоровыми известняками, пористость",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p207-u003",
+      "kind": "paragraph",
+      "page_pdf": 207,
+      "excerpt": "Наилучшие коллекторские свойства в центральных частях массивов отмечаются в ряде рифов Камско-Кинельской впадины (Карача-Елга, Шелканово – *рис. 10.3*), Приуралья",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p207-u004",
+      "kind": "paragraph",
+      "page_pdf": 207,
+      "excerpt": "В более крупных плосковершинных и атолловидных рифах, а тем более атоллах, зона улучшенных коллекторских свойств смещается к периферии рифового комплекса в область",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p207-u005",
+      "kind": "paragraph",
+      "page_pdf": 207,
+      "excerpt": "Отмеченная особенность – смещение зон наилучших коллекторских свойств к краю плосковершинных рифов и атоллов, в зону рифового гребня и даже верхнюю часть внешнего",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p207-u006",
+      "kind": "paragraph",
+      "page_pdf": 207,
+      "excerpt": "Типичное для атолловидных рифов распределение коллекторов установлено в пределах нижнекаменноугольного рифа Тенгиз в Прикас-",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p207-u007",
+      "kind": "paragraph",
+      "page_pdf": 207,
+      "excerpt": "207",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p208-u001",
+      "kind": "figure",
+      "page_pdf": 208,
+      "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Геологический разрез складчатого строения. Ориентация линии разреза, горизонтальный и вертикальный масштабы не указаны.",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p208-u002",
+      "kind": "figure",
+      "page_pdf": 208,
+      "excerpt": "Рис. 10.3. Профильный разрез Карача-Еггинского и Шелканского рифов [Кошляк, Коваленко, 1967]:",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p208-u003",
+      "kind": "paragraph",
+      "page_pdf": 208,
+      "excerpt": "1 - аргиллиты; 2 - песчаники; известняки с пористостью, %: 3 - 0-2,5; 4 - 2,5-5,0; 5 - 5,0-7,5; 6 - 7,5-10,0; 7 - 10,0-12,5; 8 - 12,5-15,0; 9 - 15,0-17,5; 10 - 17,5-20,0",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u001",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "пийской впадине (*рис. 10.4*). Пористость пород кольцевого рифового гребня составляет 6–18 %, в то время как на бассейновых склонах пористость равна 2–5 %; промежуточные",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u002",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "Различно распределение коллекторов в разных возрастных интервалах рифа Карачаганак [«Геология и нефтегазоносность...», 1988]. В пермской части, когда это был куполовидный",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u003",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "В асимметричных рифовых системах пространственное распределение коллекторов также связано с фациальной зональностью и поэтому асимметрично.",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u004",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "Отчетливое смещение зон улучшенных коллекторских свойств в связи с последовательным смещением во времени биогермного гребня отмечается, например, на Шуртанском месторождении",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u005",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "Кроме латеральных изменений в рифовом резервуаре существует и значительная вертикальная неоднородность. В этом отношении давно сложившееся и до сих пор бытующее",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u006",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "В мощных и длительно формирующихся рифовых комплексах картина существенно более сложная. На неоднородность вертикального разреза влияют две основных группы факторов.",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u007",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "Во-первых, и это главное – специфические палеогеографические условия рифообразования. В определенные этапы своего формирования –",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p209-u008",
+      "kind": "paragraph",
+      "page_pdf": 209,
+      "excerpt": "209",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p210-u001",
+      "kind": "figure",
+      "page_pdf": 210,
+      "excerpt": "━━━ FORMAT 3: КАРТА ━━━ Панель а. Карта изолиний с условными обозначениями 1–10. Северное направление показано стрелкой «Ю»; стрелка ориентирована к левому верхнему",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p210-u002",
+      "kind": "figure",
+      "page_pdf": 210,
+      "excerpt": "Рис. 10.4. Месторождение Тенгиз, Прикаспийская впадина [Павлов, 1963]:",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p210-u003",
+      "kind": "paragraph",
+      "page_pdf": 210,
+      "excerpt": "a – схематическая фациальная карта атолловидного рифа; б – карта пористости.",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p210-u004",
+      "kind": "paragraph",
+      "page_pdf": 210,
+      "excerpt": "Фации: 1 – остока атолловидного рифа; 2 – центральной лагуны; 3 – дальних склонов; 4 – профили; 5 – изогинсы кровли продуктивного комплекса; 6 – поглощающие скважины;",
+      "node_ids": [
+        "kuznetsov.p207"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p211-u001",
+      "kind": "figure",
+      "page_pdf": 211,
+      "excerpt": "━━━ FORMAT 5: СТРАТИГРАФИЧЕСКАЯ КОЛОНКА ━━━ Стратиграфическая колонка; изображение повернуто относительно нормальной ориентации. Числовые и текстовые обозначения",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p211-u002",
+      "kind": "figure",
+      "page_pdf": 211,
+      "excerpt": "━━━ FORMAT 9: ТЕХНИЧЕСКАЯ СХЕМА ━━━ Схематический разрез с линзовидным тёмным телом неправильной формы в центральной части. Вмещающая область показана короткими",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p211-u003",
+      "kind": "figure",
+      "page_pdf": 211,
+      "excerpt": "Рис. 10.5. Литолого-фашнальный профиль (а) и распределение коллекторов рифа Шурган (б) [Ильин, Фортунатова, 1988].",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p211-u004",
+      "kind": "paragraph",
+      "page_pdf": 211,
+      "excerpt": "Отложения: 1 – биогермные, 2 – шлейфовые, 3 – глубоководного шельфа, 4 – мелководных шельфовых равнин, 5 – баровые, 6 – верхней части склона, 7 – внутренней части",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p212-u001",
+      "kind": "figure",
+      "page_pdf": 212,
+      "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Верхний разрез. Ориентация разреза не указана. По горизонтали показан масштаб: 0—10 км; промежуточные деления не подписаны.",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p212-u002",
+      "kind": "figure",
+      "page_pdf": 212,
+      "excerpt": "Рис. 10.6. Профильные разрезы рифа Большетирской площади [Кузнецов и др., 2000]:",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p212-u003",
+      "kind": "paragraph",
+      "page_pdf": 212,
+      "excerpt": "$a$ – литологический; $b$ – природного резервуара.",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p212-u004",
+      "kind": "paragraph",
+      "page_pdf": 212,
+      "excerpt": "Известняки: 1 – биогермные, 2 – археоциатовые, 3 – с органогенно-водорослевой структурой, 4 – мелко-среднекристаллические; доломиты: 5 – среднекристаллические, 6",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p212-u005",
+      "kind": "paragraph",
+      "page_pdf": 212,
+      "excerpt": "это подводные, относительно глубоководные плато, с набором соответствующих, находящихся в зоне ослабленной волновой активности, собственно морских осадков (пород)",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p212-u006",
+      "kind": "figure",
+      "page_pdf": 212,
+      "excerpt": "Рис. 10.7. Линзовидно-пластовое распространение коллекторов в нижнепермских рифах Предуральского краевого прогиба [Шамов, Фролов, 1963].",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p212-u007",
+      "kind": "paragraph",
+      "page_pdf": 212,
+      "excerpt": "Значения пористости в %: 1 – менее 5, 2 – 5–10, 3 – свыше 10, 4 – значения количественно не определены; 5 – границы стратиграфических горизонтов; 6 – соленосные",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p212-u008",
+      "kind": "paragraph",
+      "page_pdf": 212,
+      "excerpt": "212",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p213-u001",
+      "kind": "paragraph",
+      "page_pdf": 213,
+      "excerpt": "a",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p213-u002",
+      "kind": "figure",
+      "page_pdf": 213,
+      "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Вертикальный разрез. Горизонтальная ориентация, горизонтальный масштаб и линия разреза не указаны. Вертикальная ось: $H$,",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p213-u003",
+      "kind": "paragraph",
+      "page_pdf": 213,
+      "excerpt": "b",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p213-u004",
+      "kind": "figure",
+      "page_pdf": 213,
+      "excerpt": "━━━ FORMAT 12: CONCEPTUAL DIAGRAM / КОНЦЕПТУАЛЬНАЯ СХЕМА ━━━ Вертикальная ось: $H$, км; значения отрицательные, от −0,5 вверху до −1,2 внизу. Направление вниз соответствует",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p213-u005",
+      "kind": "paragraph",
+      "page_pdf": 213,
+      "excerpt": "c",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p213-u006",
+      "kind": "figure",
+      "page_pdf": 213,
+      "excerpt": "━━━ FORMAT 4: РАЗРЕЗ ━━━ Ориентация и горизонтальный масштаб не указаны. Вертикальная ось: $H$, км; значения от −0,6 до −1,2 км, отрицательные отметки увеличиваются",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p213-u007",
+      "kind": "paragraph",
+      "page_pdf": 213,
+      "excerpt": "d",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p213-u008",
+      "kind": "figure",
+      "page_pdf": 213,
+      "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Схематический разрез. Ориентация и горизонтальный масштаб не указаны. Вертикальная ось: $H$, км; абсолютные отметки отрицательные,",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Описание рисунка подготовлено моделью; сверить со сканом и перерисовать."
+    },
+    {
+      "unit_id": "p214-u001",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "лачивания имеет определенные ограничения по мощности, что в конце концов ведет к пластообразному, слоистому залеганию зон выщелачивания и карстообразования.",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u002",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "Во-вторых, в периоды субаквального положения и собственно роста рифов смена во времени популяций рифостроящих организмов, вертикальные и латеральные изменения и",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u003",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "В итоге в теле крупных рифовых массивов формируется пластовое или чаще линзовидно-пластовое размещение зон с высокими коллекторскими свойствами, разделенных пачками",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u004",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "Пластовое залегание пачек пород-коллекторов, которые разделены плотными породами с низкой матричной пористостью и проницаемостью, установлено на газоконденсатном",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u005",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "Таким образом, для крупных рифовых массивов характерно слоистое и линзовидно-слоистое расположение в разрезе наиболее пористых и проницаемых пачек, которые иногда",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u006",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "В целом, ПР рифов отличаются относительно ограниченной площадью распространения, резкой фациальной контрастностью, которая контролирует размещение коллекторов (рис.",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u007",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "Характер размещения и фильтрации флюидов в ПР различных рифов не одинаков. В относительно небольших, просто построенных куполовидных рифах, где разрез слабо дифференцирован,",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u008",
+      "kind": "figure",
+      "page_pdf": 214,
+      "excerpt": "Рис. 10.8. Принципиальные схемы строения природных резервуаров, морфологии ловушек различных морфолого-генетических типов рифов и рекомендуемое размещение разведочных",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p214-u009",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "1 – рифы; 2 – зоны оптимального развития коллекторов; 3 – нерифовые отложения. Номерами обозначена предлагаемая очередность бурения скважин",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p214-u010",
+      "kind": "paragraph",
+      "page_pdf": 214,
+      "excerpt": "214",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p215-u001",
+      "kind": "table",
+      "page_pdf": 215,
+      "excerpt": "| Морфология ловушки | План | Профиль | Система разведки | | --- | --- | --- | --- | | Симметричная | Конусовидная | | Многоствольная | | | Подковообразная",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": "Проверить разметку и значения таблицы по PDF."
+    },
+    {
+      "unit_id": "p215-u002",
+      "kind": "paragraph",
+      "page_pdf": 215,
+      "excerpt": "1 2 3",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u001",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "сительно однородный массивный резервуар с наилучшими коллекторскими свойствами в их ядерных частях. Фильтрация флюидов в этих резервуарах осуществляется как в латеральном,",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u002",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "В плосковершинных и атолловидных рифах зона развития оптимальных коллекторов имеет кольцевую форму. Наилучшими коллекторскими свойствами обладают породы рифового",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u003",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "В асимметричных рифовых системах зона максимальных значений коллекторских свойств имеет линейный характер, примерно параллельно простиранию рифов, а сами зоны приурочены",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u004",
+      "kind": "heading",
+      "page_pdf": 216,
+      "excerpt": "## 10.4. ТИПЫ РИФОВЫХ ЛОВУШЕК И ЗАЛЕЖЕЙ НЕФТИ И ГАЗА И ОСНОВЫ МЕТОДИКИ ИХ РАЗВЕДКИ",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u005",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "Палеогеографические и палеотектонические условия рифообразования часто обусловливают перекрытие рифов после их формирования непроницаемыми толщами-флюидоупорами.",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u006",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "Сам рост рифов происходит в эпохи трансгрессий, или, точнее, в более общей форме, повышения уровня моря. Подъем уровня моря сопровождается карбонатонакоплением,",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u007",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "Отложение непроницаемых пород вслед за рифообразованием обусловливает формирование замкнутого объема, т.е. ловушки, причем в зависимости от типа рифов и их взаимоотношения",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u008",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "Поскольку рифы образуют локальные положительные формы рельефа, рифовые ловушки представляют собой один из видов палеогеоморфологических ловушек. Учитывая, что на",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p216-u009",
+      "kind": "paragraph",
+      "page_pdf": 216,
+      "excerpt": "216",
+      "node_ids": [
+        "kuznetsov.p211"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p217-u001",
+      "kind": "table",
+      "page_pdf": 217,
+      "excerpt": "| Типы | Изолированные куполовидные рифы | Асимметричные рифовые системы | | --- | --- | --- | | Палеогеоморфологические | Надеждино D₃f | Кунакбаево P₁ | |",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": "Проверить разметку и значения таблицы по PDF."
+    },
+    {
+      "unit_id": "p217-u002",
+      "kind": "figure",
+      "page_pdf": 217,
+      "excerpt": "Рис. 10.9. Принципиальная схема типов ловушек нефти и газа в рифах: 1 – рифы; 2 – проницаемые межрифовые и зарифовые отложения; 3 – непроницаемые межрифовые и предрифовые",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": "Сверить рисунок по PDF; требуется отдельная перерисовка."
+    },
+    {
+      "unit_id": "p218-u001",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "объема пространства кроме рельефа часто влияют литологическое замещение и последующие тектонические движения, все рифовые ловушки можно разделить на четыре группы:",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u002",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "Чисто палеогеоморфологические ловушки чаще всего образуются в одиночных изолированных рифах или в одиночных куполовидных рифах, возникающих на асимметричной рифовой",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u003",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "Морфология ловушки определяется плановой конфигурацией самих рифов. В обобщенном виде ловушки подразделяются на четыре основных класса. Ловушки конусовидных округлых",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u004",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "Ловушки в плосковершинных «столовых» рифах в плане округлые изометрические или слегка удлиненные, имеют крутые склоны и относительно плоскую вершину.",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u005",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "Наконец, ловушки атолловидных рифов в плане обычно изометричны или слегка удлинены и имеют ясно выраженные периферические гребни.",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u006",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "Асимметричные рифовые системы также образуют палеогеоморфологические ловушки, однако, поскольку возвышение рифа над зарифовыми отложениями невелико, то и высота",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u007",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "Если зарифовые отложения представлены непроницаемыми породами, то последние могут создавать дополнительный экран и тем самым увеличивать высоту и объем ловушки.",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u008",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "Весьма распространенным случаем является наложение структурообразующих движений на уже сформировавшийся риф, которое ведет к формированию структурно-палеогеоморфологических",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p218-u009",
+      "kind": "paragraph",
+      "page_pdf": 218,
+      "excerpt": "218",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p219-u001",
+      "kind": "paragraph",
+      "page_pdf": 219,
+      "excerpt": "Таким образом, например, происходит увеличение первичной высоты одиночных рифов, что обусловливает соответствующее увеличение высоты и объема ловушек, а часто и",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p219-u002",
+      "kind": "paragraph",
+      "page_pdf": 219,
+      "excerpt": "Особо важное значение для образования ловушек имеет сочетание положительной тектонической структуры с рифовыми системами. Поскольку высота таких рифов над зарифовыми",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p219-u003",
+      "kind": "paragraph",
+      "page_pdf": 219,
+      "excerpt": "Отдельную группу составляют структурные ловушки с рифовым резервуаром. При наложении локальных положительных структур на биостромные или малоамплитудные биогермные",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p219-u004",
+      "kind": "paragraph",
+      "page_pdf": 219,
+      "excerpt": "Разнообразие рифовых ловушек, специфическое строение резервуаров определяет и разнообразие связанных с ними залежей нефти и газа. Наиболее простыми и весьма распространенными",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p219-u005",
+      "kind": "paragraph",
+      "page_pdf": 219,
+      "excerpt": "Пластовые сводовые и массивные залежи формируются в структурных ловушках с рифовым резервуаром, образованных при пересечении рифовых комплексов высокоамплитудными",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p219-u006",
+      "kind": "paragraph",
+      "page_pdf": 219,
+      "excerpt": "Максимально возможная нефтенасыщенная мощность рифовых резервуаров (высота залежи) во многом зависит от типа ловушки. В палеогеоморфологических ловушках одиночных",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p219-u007",
+      "kind": "paragraph",
+      "page_pdf": 219,
+      "excerpt": "219",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u001",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "полной мощности рифа за счет латерального экранирования непроницаемыми внерифовыми отложениями. В палеогеоморфологических ловушках асимметричных краевых рифов, при",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u002",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "Своеобразие рифовых ловушек и рифовых резервуаров определяет и особенности их разведки, позволяет разработать и предложить рациональное размещение скважин как на",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u003",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "Современные методы разведочной геофизики и, в частности, сейсмики, дают возможность достаточно достоверно определить морфологогенетический тип рифа, а соответственно",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u004",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "Для целей разведки залежи в рифах можно объединить в три большие группы.",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u005",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "Залежи первой группы связаны со сравнительно небольшими одиночными куполовидными рифами. Ловушки конусовидные в сечении и округлые в плане, лучшими коллекторскими",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u006",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "Для обнаружения залежей этой группы бурение скважин целесообразно проектировать в центральной, наиболее приподнятой части предполагаемого рифа. В рифах более сложной",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u007",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "Залежи второй группы связаны с одиночными относительно изометричными или слегка вытянутыми рифами довольно крупных размеров – «столовыми» рифами с плоской вершиной",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u008",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "Разведка рифов этой группы, как правило, начинается также с разбирания их центральных частей. Несмотря на относительную просто-",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p220-u009",
+      "kind": "paragraph",
+      "page_pdf": 220,
+      "excerpt": "220",
+      "node_ids": [
+        "kuznetsov.p217"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p221-u001",
+      "kind": "paragraph",
+      "page_pdf": 221,
+      "excerpt": "ту морфологии, сложное распределение коллекторов ведет к тому, что даже при обнаружении залежи первыми скважинами (в связи с плотностью внутририфовых и лагунных",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p221-u002",
+      "kind": "paragraph",
+      "page_pdf": 221,
+      "excerpt": "Третья группа залежей связана с асимметричными рифовыми системами. Высота ловушки в этих рифах определяется величиной первичного превышения рифового гребня над зарифовыми",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p221-u003",
+      "kind": "paragraph",
+      "page_pdf": 221,
+      "excerpt": "Первые разведочные скважины обычно располагаются в наиболее приподнятом в современном структурном плане участке рифов, однако частое смещение зон улучшенных коллекторских",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p221-u004",
+      "kind": "paragraph",
+      "page_pdf": 221,
+      "excerpt": "Очень важным моментом является изучение тыльно-рифовой области, поскольку именно здесь, как правило, располагается «критическое направление» ловушки, т.е. участок",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p221-u005",
+      "kind": "paragraph",
+      "page_pdf": 221,
+      "excerpt": "Методика проведения работ по изучению подсчетных параметров и подготовке месторождения к разработке должна учитывать то, что абсолютное большинство связанных с рифами",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p221-u006",
+      "kind": "paragraph",
+      "page_pdf": 221,
+      "excerpt": "221",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p222-u001",
+      "kind": "paragraph",
+      "page_pdf": 222,
+      "excerpt": "сится к массивному типу, т.е. ограничено сверху выпуклой поверхностью ловушки, а снизу плоскостью ВНК или ГВК. В связи с такой формой мощность залежи закономерно",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p222-u002",
+      "kind": "paragraph",
+      "page_pdf": 222,
+      "excerpt": "Если исходить из предположения о том, что более выгодной является такая сетка, которая освещала бы равномерно объем, а не площадь залежи [Габриэлянц и др., 1976],",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p222-u003",
+      "kind": "paragraph",
+      "page_pdf": 222,
+      "excerpt": "Размещение разведочных скважин рационально планировать, исходя именно из указанных соображений.",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    },
+    {
+      "unit_id": "p222-u004",
+      "kind": "paragraph",
+      "page_pdf": 222,
+      "excerpt": "Для небольших куполовидных рифов часто нерентабельно планировать специальную сетку скважин. Нередко достаточно пробурить с одного основания дополнительно несколько",
+      "node_ids": [
+        "kuznetsov.p221"
+      ],
+      "reason": null,
+      "needs_review": null
+    }
+  ]
+}

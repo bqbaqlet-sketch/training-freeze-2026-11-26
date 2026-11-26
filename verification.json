@@ -1,0 +1,35 @@
+{
+  "schemas": [
+    "node",
+    "coverage",
+    "routing",
+    "task"
+  ],
+  "pages": 27,
+  "nodes": 6,
+  "units": 419,
+  "verified_quotes": 384,
+  "units_by_type": {
+    "heading": 12,
+    "paragraph": 249,
+    "formula": 146,
+    "figure": 12
+  },
+  "needs_visual_review": 158,
+  "tasks": 15,
+  "task_types": [
+    "gap",
+    "multiple",
+    "order",
+    "single"
+  ],
+  "task_minimum_met": true,
+  "scope": "Дословность и числа сверены с выданным Markdown. PDF проверен по охвату страниц; предметная оценка и сканы отмечаются отдельно.",
+  "chapter": "basniev",
+  "html_bytes": 11345756,
+  "build_seconds": 3.06,
+  "teaching_notes": true,
+  "pdf_sha256": "191808991d8b0fc9e26c1b9aa23ade297f590199c7cbffdf2749a21e5d2450fd",
+  "markdown_sha256": "4ea3c50d7dcfab1a871f647804830e4de8fb39e268877cd3deff081cac3028b0",
+  "freeze_commit": "b180740e45938e2bcc995dab655b02aa6fb9f3ed"
+}

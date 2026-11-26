@@ -1,0 +1,35 @@
+{
+  "schemas": [
+    "node",
+    "coverage",
+    "routing",
+    "task"
+  ],
+  "pages": 23,
+  "nodes": 7,
+  "units": 157,
+  "verified_quotes": 122,
+  "units_by_type": {
+    "heading": 5,
+    "paragraph": 129,
+    "figure": 21,
+    "table": 2
+  },
+  "needs_visual_review": 23,
+  "tasks": 17,
+  "task_types": [
+    "gap",
+    "multiple",
+    "order",
+    "single"
+  ],
+  "task_minimum_met": true,
+  "scope": "Дословность и числа сверены с выданным Markdown. PDF проверен по охвату страниц; предметная оценка и сканы отмечаются отдельно.",
+  "chapter": "kuznetsov",
+  "html_bytes": 11307178,
+  "build_seconds": 1.77,
+  "teaching_notes": true,
+  "pdf_sha256": "8cfa680b5ee6d3076cd360d2b7fab555f205c9a4d63d0a0d6e68e5b30cdb0e3f",
+  "markdown_sha256": "79d3deae1c4ad110686b8920a5041f8e01ed2874e0295fab07dd9b87f3009fc0",
+  "freeze_commit": "b180740e45938e2bcc995dab655b02aa6fb9f3ed"
+}

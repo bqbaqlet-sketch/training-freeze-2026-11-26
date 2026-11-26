@@ -1,0 +1,89 @@
+{
+  "chapter": "kuznetsov",
+  "routes": [
+    {
+      "node_id": "kuznetsov.p200",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "kuznetsov.p203",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 1,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "kuznetsov.p205",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 1,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "kuznetsov.p207",
+      "format": "практикум на данных",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 1,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Решение по признакам из источника."
+    },
+    {
+      "node_id": "kuznetsov.p211",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 1,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "kuznetsov.p217",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 1,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    },
+    {
+      "node_id": "kuznetsov.p221",
+      "format": "интерактив",
+      "video_scores": {
+        "time": 0,
+        "invisible": 0,
+        "scale": 0,
+        "counterintuitive": 0,
+        "cause_effect": 0
+      },
+      "why": "Сопоставление параметров, геометрии или измерений."
+    }
+  ]
+}
