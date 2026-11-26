@@ -11,6 +11,17 @@ h1{font-size:clamp(2rem,6vw,3rem);margin:8px 0} h2{margin:4px 0} p{margin:6px 0 
 a{color:#522391;text-underline-offset:.16em} .open{display:inline-block;background:#512492;color:#fff;border-radius:8px;padding:9px 12px}
 .files{display:flex;flex-wrap:wrap;gap:7px 13px;margin-top:14px}
 :focus-visible{outline:3px solid #228778;outline-offset:3px}
+.overview{margin:20px 0;background:linear-gradient(160deg,#fff,#f9f7ff)}
+.overview-grid{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);gap:16px;align-items:start}
+.overview-grid figure{min-width:0;margin:0;padding:12px;background:#f0ebfa;border:1px solid #ded3ef;border-radius:12px}
+.overview-grid h3{font-size:1rem;line-height:1.3;margin:0 0 7px}
+.overview-grid small{display:block;color:#574a6d;margin-bottom:8px}
+.overview-grid video{display:block;width:100%;background:#11182b;border-radius:8px}
+.overview-wide video{aspect-ratio:16/9}
+.overview-short video{aspect-ratio:9/16;max-width:234px;margin-inline:auto}
+.overview-grid .files{margin-top:10px}
+@media(max-width:650px){.overview-grid{grid-template-columns:minmax(0,1fr)}.overview-short video{max-width:260px}}
+.overview{padding:clamp(12px,3vw,20px);border:1px solid #ddd3ee;border-radius:14px}
 </style>
 <body><main><strong>RockiGo</strong><h1>Глава → курс</h1>
 <p>Три курса по нефтегазовой геологии.</p>
@@ -18,12 +29,34 @@ a{color:#522391;text-underline-offset:.16em} .open{display:inline-block;backgrou
   <p>Для офлайн-просмотра распакуй ZIP целиком и открой <code>index.html</code> в распакованной папке.</p>
   <div class="files">
     <a href="./app/index.html">Открыть приложение RockiGo</a>
-    <a href="https://github.com/bqbaqlet-sketch/training-freeze-2026-11-26/archive/refs/heads/main.zip">Скачать демо с ElevenLabs</a>
+    <a href="https://github.com/bqbaqlet-sketch/training-freeze-2026-11-26/archive/refs/heads/main.zip">Скачать демо с курсами и видео</a>
     <a href="https://github.com/bqbaqlet-sketch/training-freeze-2026-11-26/archive/135e56e91073aa44202d5b9f8c9d9d2253fef98e.zip">Пакет сдачи с Microsoft</a>
     <a href="https://bqbaqlet-sketch.github.io/rockigo/pipeline/">Открыть конвейер</a>
     <a href="https://github.com/bqbaqlet-sketch/rockigo/commit/b180740e45938e2bcc995dab655b02aa6fb9f3ed">Замороженный коммит</a>
   </div>
 </aside>
+<section class="overview card" id="demo-videos" aria-labelledby="demo-videos-title">
+  <h2 id="demo-videos-title">RockiGo в двух форматах</h2>
+  <p>Как конвейер собирает курс из главы и что можно делать в приложении.</p>
+  <div class="overview-grid">
+    <figure class="overview-wide" id="overview">
+      <h3>От главы к курсу</h3>
+      <small>16:9 · 1:43</small>
+      <video controls playsinline preload="metadata" poster="./video/rockigo-overview-poster.jpg" aria-label="Обзор RockiGo в горизонтальном формате">
+        <source src="./video/rockigo-overview.mp4" type="video/mp4">
+      </video>
+      <div class="files"><a href="./video/rockigo-overview.mp4" download>Скачать MP4</a><a href="./video/rockigo-overview.ru.vtt" download>Субтитры</a></div>
+    </figure>
+    <figure class="overview-short" id="short">
+      <h3>RockiGo за 42 секунды</h3>
+      <small>9:16 · 0:42</small>
+      <video controls playsinline preload="metadata" poster="./video/rockigo-short-poster.jpg" aria-label="Короткое видео о RockiGo в вертикальном формате">
+        <source src="./video/rockigo-short.mp4" type="video/mp4">
+      </video>
+      <div class="files"><a href="./video/rockigo-short.mp4" download>Скачать MP4</a><a href="./video/rockigo-short.ru.vtt" download>Субтитры</a></div>
+    </figure>
+  </div>
+</section>
 <article class="practice">
   <h2>Практикум геолога</h2>
   <p>Проверь три решения на учебных данных по каротажу, давлению и рифовому керну.</p>
@@ -36,7 +69,7 @@ a{color:#522391;text-underline-offset:.16em} .open{display:inline-block;backgrou
     <p>Глава V, § 17–20</p>
     <a class="open" href="latyshova/RockiGo.html">Открыть курс</a>
     <div class="files">
-      <a href="./geology.html#logs">Практикум</a><a href="latyshova/media/crossplot.mp4?v=elevenlabs">Видео 16:9</a><a href="latyshova/media/crossplot.passport.json?v=elevenlabs">Паспорт видео</a>
+      <a href="./geology.html#logs">Практикум</a><a href="latyshova/media/crossplot.mp4?v=elevenlabs">Разбор каротажа 16:9</a><a href="latyshova/media/crossplot.passport.json?v=elevenlabs">Паспорт видео</a>
       <a href="latyshova/layer.json">Учебный слой</a><a href="latyshova/coverage.csv">Таблица покрытия</a><a href="latyshova/routing.json">Маршрутизация</a>
       <a href="latyshova/task.json">Задания</a><a href="latyshova/verification.json">Отчёт проверки</a>
     </div>
@@ -47,7 +80,7 @@ a{color:#522391;text-underline-offset:.16em} .open{display:inline-block;backgrou
     <p>Главы XXIII и XXIV § 1</p>
     <a class="open" href="basniev/RockiGo.html">Открыть курс</a>
     <div class="files">
-      <a href="./geology.html#pressure">Практикум</a><a href="basniev/media/pressure.mp4?v=elevenlabs">Видео 9:16</a><a href="basniev/media/pressure.passport.json?v=elevenlabs">Паспорт видео</a>
+      <a href="./geology.html#pressure">Практикум</a><a href="basniev/media/pressure.mp4?v=elevenlabs">Разбор давления 9:16</a><a href="basniev/media/pressure.passport.json?v=elevenlabs">Паспорт видео</a>
       <a href="basniev/layer.json">Учебный слой</a><a href="basniev/coverage.csv">Таблица покрытия</a><a href="basniev/routing.json">Маршрутизация</a>
       <a href="basniev/task.json">Задания</a><a href="basniev/verification.json">Отчёт проверки</a>
     </div>
